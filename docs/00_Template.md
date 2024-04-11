@@ -14,12 +14,11 @@ Blablabla normaler Text.
 
 ### So geht eun UnterUnterThema wie etwa 1.1.2
 
-![So änderst du die Bildgröße](/rsc/01_img/LandingPage.jpg)
 <img src="/rsc/01_img/LandingPage.jpg" width="50" height="50">
 
-![So änderst du die Bildgröße](/rsc/01_img/LandingPage.jpg | width=50)
+<img src="/rsc/01_img/LandingPage.jpg" width="100" height="100">
 
-![So änderst du die Bildgröße](/rsc/01_img/LandingPage.jpg | width=25)
+<img src="/rsc/01_img/LandingPage.jpg" width="200" height="200">
 
 # Erweiterungen
 - Markdown Preview Github Styling
