@@ -1,29 +1,25 @@
-# Eine nette Überschrift (Projektname) 💥
+# BAUEN EINER KLEINEN DROHNE
 <!--- Trennbalken bei Überschriften Level 1 (#) + kann kopiert werden --->
 ![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
 <!--- Hier kommt ein schönes Bild + ggf. mehr im Text --->
-![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/pictures/Garage_03.png?raw=true)
+![image](/rsc/01_img/LandingPage.jpg)
 
-# Index
-<!--- Index Level I --->
-1. [Verantwortlichkeiten](#Verantwortlichkeiten)
-2. [Beschreibung](#Beschreibung)
-3. [Eigene Struktur](#Eigene-Struktur)
+
 
 # Verantwortlichkeiten
 <!--- Trennbalken bei Überschriften Level 1 (#) + kann kopiert werden --->
-![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
-Wer ist der Ansprechpartner. Wer ist an dem Projekt beteiligt? Kann ggf. bei Bedarf / auf Wunsch leergelassen werden. Alternativ ersetzen mit allgemeinen Informationen ("Ausbildung Informatik, LJ2024" | "Schule XYZ 2025")
+Ausbildung Informatik, LJ2023
 
 # Beschreibung
 <!--- Trennbalken bei Überschriften Level 1 (#) + kann kopiert werden --->
-![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
-Hier fügen wir eine aussagekräftige Detailbeschreibung unseres Projektes durch.
+In diesem Projekt wirst du eine kleine Drohne bauen. Dazu beschäftigst du dich mit dem Zusammenbau der Komponenten sowie der verwendeten Software und dem anschließenden Tuning. Das Endziel wird es sein, dass die Drohne eigenständig fliegt und von dir einfach gesteuert werden kann.
 
-# Eigene Struktur
+**Dauer des Projekts:** ca. 1 Arbeitstag, wenn du das Projekt vor Ort in der Garage machst
+
+# Kapitel
 <!--- Trennbalken bei Überschriften Level 1 (#) + kann kopiert werden --->
 
 Anschließend kann eine eigene Struktur, die an das Projekt anpegasst ist, erstellt werden. Gerne in die tieferen Dokumentationen weiter verlinken.
@@ -31,11 +27,3 @@ Anschließend kann eine eigene Struktur, die an das Projekt anpegasst ist, erste
 <!--- Weitere Indexe sind immer möglich --->
 1. [Unterstruktur](#Unterstruktur)
 2. [Weitere Unterstruktur](#Weitere-Unterstruktur)
-
-## Unterstruktur
-
-## Weitere Unterstruktur
-
-### Bis Unterstruktur Level III 
----
-<!--- Trennbalken bei Überschriften Level 3 (#) + besteht nur aus den drei Strichen --->
