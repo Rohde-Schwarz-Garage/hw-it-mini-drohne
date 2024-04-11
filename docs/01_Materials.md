@@ -41,4 +41,3 @@ In diesem Abschnitt findest du alles, was du benötigst, um dieser Anleitung fol
 | Fernbedienung mit eingelegten 18650 Li-Ion-Batterien      | 3   |
 | Kabel USB-A auf Micro-USB                                 | 4   |
 | Lüfter                                                    | 5   |
-
