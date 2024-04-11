@@ -19,7 +19,6 @@ Wähle nun links unten das USB-Laufwerk der Fernbedienung aus.
 Dort siehst du die gleichen Ordner wie auf dem Desktop. Füge die in kopierten Ordner nun ein (STRG+V oder Rechtsklick -> Einfüge Symbol). Sollte ein Fenster für das Ersetzen der Dateien auftauchen, wähle „Dateien im Ziel ersetzen“.
 
 ![Image](/rsc/01_img/03_RemoteSetup/RemoteReplace.png)
-
 Warte nun, bis der Vorgang abgeschlossen wurde.
 
 Glückwunsch, du hast die benötigte Konfiguration auf die Fernbedienung übertragen. Im weiteren Verlauf wirst du nun einige Zusatzeinstellungen vornehmen.
