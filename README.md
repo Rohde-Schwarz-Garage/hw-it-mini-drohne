@@ -29,7 +29,7 @@ Um zu einer funktionierenden Drohne zu gelangen folge einfach den Kapiteln. An E
 2. [Zusammenbau Rahmen](/docs/02_FrameAssembly.md)
 3. [Navigation und Einrichtung Fernsteuerung](/docs/03_RemoteSetup.md)
 4. [Zusammenbau Drohne](/docs/04_DroneAssembly.md)
-5. [Einrichtung Flugsteuerung](/docs/05_FlightControllerSetup.md)
+5. [Einrichtung Flight-Controller](/docs/05_FlightControllerSetup.md)
 7. [Testen und Tunen der Drohne](/docs/06_TestingAndTuning.md)
 8. [Möglichkeiten zum Ausbau des Projekts](/docs/07_Outlook.md)
 9. [Links zu interessanten Webseiten und zu den verwendeten Bauteilen](/docs/08_Links.md)
