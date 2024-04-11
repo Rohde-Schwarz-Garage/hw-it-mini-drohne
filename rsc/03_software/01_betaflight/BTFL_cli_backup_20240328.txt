@@ -1,0 +1,143 @@
+defaults nosave
+
+
+# version
+# Betaflight / STM32F405 (S405) 4.4.3 Nov 14 2023 / 18:24:53 (738127e7e) MSP API: 1.45
+
+# config: YES
+
+# start the command batch
+batch start
+
+# reset configuration to default settings
+defaults nosave
+
+board_name BETAFLIGHTF4
+manufacturer_id FPVM
+mcu_id 0026004e5131501120333341
+signature 
+
+# resources
+resource I2C_SCL 2 B10
+resource I2C_SDA 2 B11
+
+# feature
+feature INFLIGHT_ACC_CAL
+
+# serial
+serial 1 64 115200 57600 0 115200
+
+# beeper
+beeper -ARMING_GPS_FIX
+beeper -GPS_STATUS
+beeper -ON_USB
+beeper -CAM_CONNECTION_OPEN
+beeper -CAM_CONNECTION_CLOSE
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+# aux
+aux 0 0 0 1950 2050 0 0
+aux 1 1 9 1450 1550 0 0
+
+# master
+set gyro_lpf1_static_hz = 100
+set gyro_lpf2_static_hz = 200
+set dyn_notch_count = 2
+set dyn_notch_min_hz = 80
+set dyn_notch_max_hz = 700
+set gyro_lpf1_dyn_min_hz = 100
+set gyro_lpf1_dyn_max_hz = 200
+set acc_lpf_hz = 10
+set acc_calibration = 40,-2,-16,1
+set min_check = 1200
+set rc_smoothing_auto_factor = 250
+set rc_smoothing_auto_factor_throttle = 100
+set rc_smoothing_setpoint_cutoff = 6
+set rc_smoothing_feedforward_cutoff = 6
+set rc_smoothing_throttle_cutoff = 20
+set blackbox_sample_rate = 1/16
+set dshot_idle_value = 1500
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
+set motor_poles = 12
+set bat_capacity = 450
+set vbat_max_cell_voltage = 440
+set current_meter = ADC
+set battery_meter = ADC
+set ibata_scale = 470
+set yaw_motors_reversed = ON
+set deadband = 5
+set yaw_deadband = 5
+set simplified_gyro_filter_multiplier = 40
+set osd_canvas_width = 30
+set osd_canvas_height = 13
+set gyro_1_sensor_align = DEFAULT
+set gyro_1_align_yaw = 2700
+set rpm_filter_harmonics = 2
+
+profile 0
+
+# profile 0
+set profile_name = Default
+set vbat_sag_compensation = 100
+set anti_gravity_gain = 90
+set iterm_relax_cutoff = 5
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000
+set yaw_lowpass_hz = 90
+set p_pitch = 75
+set i_pitch = 134
+set d_pitch = 76
+set f_pitch = 199
+set p_roll = 71
+set i_roll = 127
+set d_roll = 67
+set f_roll = 191
+set p_yaw = 71
+set i_yaw = 127
+set f_yaw = 191
+set level_limit = 25
+set d_min_roll = 67
+set d_min_pitch = 76
+set thrust_linear = 20
+set feedforward_smooth_factor = 40
+set feedforward_jitter_factor = 16
+set simplified_master_multiplier = 160
+set simplified_d_gain = 140
+set simplified_dmax_gain = 0
+
+profile 1
+
+profile 2
+
+profile 3
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+# rateprofile 0
+set rateprofile_name = Default
+set rates_type = BETAFLIGHT
+set roll_rc_rate = 40
+set pitch_rc_rate = 40
+set yaw_rc_rate = 40
+set roll_srate = 70
+set pitch_srate = 70
+set yaw_srate = 70
+set throttle_limit_type = SCALE
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 3
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
