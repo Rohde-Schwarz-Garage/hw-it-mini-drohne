@@ -22,8 +22,11 @@ In diesem Projekt wirst du eine kleine Drohne bauen. Dazu beschäftigst du dich 
 # Kapitel
 <!--- Trennbalken bei Überschriften Level 1 (#) + kann kopiert werden --->
 
-Anschließend kann eine eigene Struktur, die an das Projekt anpegasst ist, erstellt werden. Gerne in die tieferen Dokumentationen weiter verlinken.
+Um zu einer funktionierenden Drohne zu gelangen folge einfach den Kapiteln. An Ende jedes Kapitels kommst wieder auf diese Seite.
 
 <!--- Weitere Indexe sind immer möglich --->
-1. [Unterstruktur](#Unterstruktur)
-2. [Weitere Unterstruktur](#Weitere-Unterstruktur)
+1. [Vorbereitung Material und Software](/docs/01_Materials.md)
+2. [Zusammenbau Rahmen](/docs/02_AssemblyRahmen.md)
+3. [Navigation und Einrichtung Fernsteuerung](/docs/03_RemoteSetup.md)
+4. [Zusammenbau Drohne](/docs/04_AssemblyDrone.md)
+5. [Einrichtung Flugsteuerung]()
