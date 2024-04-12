@@ -8,6 +8,18 @@ Im Kern ist eine Drohne ziemlich simpel: Es gibt eine Energiequelle, den Akku. A
 Die Steuerung des ganzen übernimmt der Flight Controller. Er ist das Gehirn der Drohne. Seine Befehle erhält er von der Fernbedienung, die du in der Hand hältst.  
 In der Fernbedienung integriert ist ein Übertragungs- bzw. Sendemodul. Auf dem Flight Controller sitzt das Gegenstück dazu, das Empfangsmodul. Über diese Module hinweg erfolgt die Kommunikation zwischen Fernbedienung und dem Flight Controller auf der Drohne.
 
-**Legende:** Energiefluss, Kommunikation/Steuerung
+**Legende:** 
+<code style="color : Cyan">Kommunikation/Steuerung</code>
+<code style="color : Orangered">Energiefluss</code>
+
 
 ![Image](/rsc/01_img/02_FrameAssembly/BasicConcept.png)
+
+
+## Akku laden
+
+Als allererstes werden wir die Akkus laden, damit sie mit Sicherheit voll sind, sobald es an den ersten Flug der Drohne geht.
+
+**Wichtig:** Lies bitte unbedingt zuerst die Sicherheitshinweise zu Akkus bevor du fortfährst. Klicke dazu [hier](/docs/09_Safety.md#sicherer-umgang-mit-lipo-akkus).
+
+

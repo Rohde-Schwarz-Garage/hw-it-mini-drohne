@@ -20,6 +20,16 @@ Blablabla normaler Text.
 
 <img src="/rsc/01_img/LandingPage.jpg" width="200" height="200">
 
+# Formatierung Schrift mit Farbe:
+
+<code style="color : Cyan">Kommunikation/Steuerung</code>
+<code style="color : Orangered">Energiefluss</code>
+
+
 # Erweiterungen
 - Markdown Preview Github Styling
 - GitHub Markdown Preview
+
+# Am Ende von jedem Dokument:
+
+## [Klicke hier, um zurück zur Übersicht der Kapitel zu kommen!](/README.md#kapitel)
