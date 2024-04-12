@@ -33,3 +33,4 @@ Um zu einer funktionierenden Drohne zu gelangen folge einfach den Kapiteln. An E
 7. [Testen und Tunen der Drohne](/docs/06_TestingAndTuning.md)
 8. [Möglichkeiten zum Ausbau des Projekts](/docs/07_Outlook.md)
 9. [Links zu interessanten Webseiten und zu den verwendeten Bauteilen](/docs/08_Links.md)
+10. [Sicherheitshinweise](/docs/09_Safety.md)
