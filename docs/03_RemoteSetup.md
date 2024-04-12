@@ -1,3 +1,5 @@
+# Grundlegende Navigation Fernbedienung
+
 # Einrichten Fernbedienung
 Damit die Fernbedienung das tut, was du möchtest, muss sie konfiguriert werden. Die nötigen Konfigurationen liegen schon auf dem PC, die folgenden Schritte zeigen dir, wie du diese auf die Fernbedienung ziehen kannst.
 
@@ -21,3 +23,5 @@ Dort siehst du die gleichen Ordner wie auf dem Desktop. Füge die in kopierten O
 Warte nun, bis der Vorgang abgeschlossen wurde.
 
 Glückwunsch, du hast die benötigte Konfiguration auf die Fernbedienung übertragen. Im weiteren Verlauf wirst du nun einige Zusatzeinstellungen vornehmen.
+
+# Konfiguration Übertragungsmodul
