@@ -1,24 +1,16 @@
-# Einrichten Fernbedienung
+# Einrichten Flight-Controller
 
-Damit die Fernbedienung das tut, was du möchtest, muss sie konfiguriert werden. Die nötigen Konfigurationen liegen schon auf dem PC, die folgenden Schritte zeigen dir, wie du diese auf die Fernbedienung ziehen kannst.
+Damit die Drohne fliegen kann muss nicht nur die Hardware korrekt zusammengebaut sein, sondern auch die Software richtig konfiguriert sein. Einen Großteil, die Flugsteuerung im Flight Controller, werden wir in diesem Kapitel erledigen.
 
-Schalte den PC und die Fernbedienung an.
+Wir starten damit die Firmware auf den Controller zu flashen.
 
-Als Nächstes nimmst du das USB-C Kabel und verbindest den PC und die Fernbedienung miteinander. Achte darauf, dass du das Kabel oben bei der Fernbedienung einsteckst.
+> Firmware kannst du dir im Grunde vorstellen wie das Betriebssystem auf deinem PC/Laptop zu Hause. Erst dadurch kannst du mit der Hardware interagieren und sie das machen lassen, was du möchtest. Erst dadurch kannst du Einstellungen vornehmen, Programme ausführen, Internetseiten öffnen usw. Auf dem Flight Control-ler läuft nur eben kein Windows, Android oder iOS, sondern ein ganz spezielles für diesen Zweck entwickeltes Betriebssystem namens _Betaflight_. Dieses Betriebssystem müssen wir nun zu anfangs installieren, was man allgemein auch „flashen“ nennt.
 
-Beim Einstecken sollte ein Fenster mit drei verschiedenen Auswahlmöglichkeiten erscheinen. Wähle mit dem Drehrad rechts die Option „USB-Storage“ und drücke das Drehrad. Wenn du versehentlich etwas anderes ausgewählt hast, steck das Kabel einfach wieder ein und aus und wiederhole den Vorgang
+**Wichtig:** Immer wenn du den Flight Controller länger als ein paar Sekunden mit dem PC verbindest, richte einen Lüfter auf ihn. Gerade während des Flashens kann er sehr heiß werden. Ohne ein wenig Kühlung riskiert man im besten Fall ein Abstürzen des Controllers, was insbesondere wenn man Einstellungen noch nicht gesi-chert hat, sehr ärgerlich sein kann. Im schlimmsten Fall kann es bei manchen Flight Controllern sogar zu De-fekten führen.
 
-![Image](/rsc/01_img/03_RemoteSetup/RemoteUSB.png)
+Um Betaflight installieren zu können, müssen wir den Controller zuerst in einen speziellen Modus versetzen, der diese Art von Zugriff ermöglicht. Nimm einen kleinen Flachkopfschraubenzieher zur Hand und halte ihn wie auf dem Bild auf die markierten Kontakte (1) auf dem Flight Controller. Während du immer noch die zwei Kon-takte mit dem Schraubenzieher verbunden hältst, verbinde den Controller mit dem USB-Kabel an den PC.  Möglicherweise ist es einfacher das mit einer zweiten Person gemeinsam zu machen, sodass eine nur die Kontakte mit dem Schraubenzieher verbindet und die andere nur das Kabel ansteckt. Hast du alles richtig ge-macht, dann blinkt nur die rote LED (2) auf der gegenüberliegenden Seite des USB-Anschlusses. Falls etwas schiefgelaufen ist, dann blinken sowohl die etwas kleinere grüne LED als auch die hellere rote LED abwech-selnd. In diesem Fall wiederholst du den Prozess einfach (Kabel nochmal abstecken und dann wieder anste-cken). Achte vor allem darauf, dass der Schraubenzieher tatsächlich die zwei Kontaktstellen verbindet.
 
-Klicke hier und lade dir den Ordner 02_edgetx herunter.  Markiere nun alle darin enthaltenen Ordner kopiere alles (STRG+C oder Rechtsklick -> Kopiersymbol).
+![Image](/rsc/01_img/05_FlightControllerSetup/FlightControllerBootPins.png)
+![Image](/rsc/01_img/05_FlightControllerSetup/BootSuccessful.png)
 
-Wähle nun links unten das USB-Laufwerk der Fernbedienung aus.
-
-![Image](/rsc/01_img/03_RemoteSetup/RemoteDrive.png)
-
-Dort siehst du die gleichen Ordner wie auf dem Desktop. Füge die in kopierten Ordner nun ein (STRG+V oder Rechtsklick -> Einfüge Symbol). Sollte ein Fenster für das Ersetzen der Dateien auftauchen, wähle „Dateien im Ziel ersetzen“.
-
-![Image](/rsc/01_img/03_RemoteSetup/RemoteReplace.png)
-Warte nun, bis der Vorgang abgeschlossen wurde.
-
-Glückwunsch, du hast die benötigte Konfiguration auf die Fernbedienung übertragen. Im weiteren Verlauf wirst du nun einige Zusatzeinstellungen vornehmen.
+Sobald also ausschließlich die rote LED blinkt, öffne auf dem PC das Programm Betaflight Configurator. Du solltest es wie in [Installation Software und Treiber]() beschrieben bereits installiert haben. Falls nicht, solltest du das jetzt nachholen. Die Startseite sollte in etwa wie auf dem Bild aussehen. Achte darauf, dass weder der ExpressLRS Configurator noch der ESC Configurator (aus einem späteren Kapitel) geöffnet sind, während du im Betaflight Configurator arbeitest.
