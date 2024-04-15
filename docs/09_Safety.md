@@ -50,6 +50,8 @@ Sollte während des Flugs etwas Unvorhersehbares passieren oder du möchtest ein
 
 Es ist wichtig, diese Prozedur immer im Hinterkopf zu behalten, um auf unvorhergesehene Ereignisse schnell reagieren zu können und um allen Anwesenden ein hohes Maß an Sicherheit zu gewährleisten. Fliege immer verantwortungsbewusst und stelle sicher, dass du deine Drohne jederzeit im Blick hast. Durch Beachtung dieser Hinweise wird das Fliegen zu einem sicheren und spaßigen Erlebnis.
 
+## ## [Klicke hier, um zurück zum Zusammenbau der Drohne zu kommen!](/docs/04_DroneAssembly.md#propeller)
+
 ## [Klicke hier, um zurück zum Setup des Flight-Controllers zu kommen!](/docs/05_FlightControllerSetup.md#konfiguration-motorsteuerung)
 
 ## [Klicke hier, um zurück zur Übersicht der Kapitel zu kommen!](/README.md#kapitel)

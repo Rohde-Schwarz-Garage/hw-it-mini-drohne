@@ -1,4 +1,4 @@
-# Einrichten Fernbedienung
+# Navigation und Einrichtung Fernbedienung
 
 ## Einlegen der Batterien und Aktivieren der selbstständigen Zentrierung
 
@@ -28,7 +28,7 @@ Beim Einstecken sollte ein Fenster mit drei verschiedenen Auswahlmöglichkeiten 
 
 ![Image](/rsc/01_img/03_RemoteSetup/RemoteUSB.png)
 
-Klicke [hier](/rsc/03_software/02_edgetx) und lade dir den Ordner 02_edgetx herunter.  Markiere nun alle darin enthaltenen Ordner kopiere alles (STRG+C oder Rechtsklick -> Kopiersymbol).
+Klicke [hier](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FRohde-Schwarz-Garage%2Fhw-it-mini-drohne%2Ftree%2Fmain%2Frsc%2F03_software%2F02_edgetx) und es wird automatisch der Ordner 02_edgetx heruntergeladen.  Entpacke den Ordner und markiere nun alle darin enthaltenen Ordner kopiere alles (STRG+C oder Rechtsklick -> Kopiersymbol).
 
 Wähle nun links unten das USB-Laufwerk der Fernbedienung aus.
 
@@ -53,7 +53,34 @@ Es sollte dann folgende Anzeige auf der Fernbedienung erscheinen. Wähle mit dem
 
 ![Image](/rsc/01_img/03_RemoteSetup/RemoteUSBSerial.png)
 
+Öffne dann die Software ExpressLRS Configurator. Du findest sie im Ordner Drohne auf dem Desktop.
+Das Fenster, das sich öffnet, sieht etwa so wie unten aus. Wähle die Werte so wie in (2,3,4) aus.
 
+![Image](/rsc/01_img/03_RemoteSetup/RemoteExpressLRSConfigurator1.png)
+
+Anschließend sollten die Werte unten im roten Kasten automatisch ausgewählt werden. Falls nicht, vervollständige sie bitte entsprechend. Die *Binding Phrase* (5) kannst du **frei wählen**. Du musst lediglich darauf achten, dass, falls mehrere Drohnen gleichzeitig gebaut werden, nicht mehrmals die gleiche Binding Phrase verwendet wird. Sprich dich also mit anderen Drohnenpiloten ab, sonst kann es zu Verbindungsfehlern kommen und niemand kann fliegen!
+
+Zuletzt musst du nur noch im Dropdown-Menü (6) *COM5* auswählen. Möglicherweise ist die Zahl hinter *COM* nicht 5, sondern eine andere Zahl. Das macht nichts. Im Dropdown-Menü sollte es nur eine Auswahlmöglichkeit geben, die nimmst du einfach. Gibt es mehr als eine Auswahlmöglichkeit, ist das ein Zeichen dafür, dass noch irgendein anderes Gerät am PC angesteckt ist, das gerade nicht benötigt wird. Entferne es und öffne das Dropdown-Menü neu, dann sollte nur noch eine Möglichkeit übrigbleiben.
+
+Anschließend kannst du die Konfiguration auf die Fernbedienung übertragen, indem du *Auf Gerät installieren* (7) drückst.
+
+![Image](/rsc/01_img/03_RemoteSetup/RemoteExpressLRSConfigurator2.png)
+
+Wenn die Installation fertig ist, kannst du die Fernbedienung abstecken und ausschalten sowie das Programm schließen. Kommt es zu Fehlern, liegt es wahrscheinlich an fehlenden Treibern, die du per *Zadig* nachinstallieren kannst (1.4.1 ).
+
+![Image](/rsc/01_img/03_RemoteSetup/RemoteStartPage.png)
+
+Nachdem du alles erfolgreich abgeschlossen hast, müssen wir noch eine kleine Änderung an der Fernbedienung machen. Dafür musst du die Fernbedienung starten und zum Startbildschirm gelangen.
+
+Jetzt müssen wir in das System Menü gelangen. Dafür musst du den **SYS-Knopf** drücken. Danach sollte dieses Menü auf dem Bildschirm zu sehen sein: 
+
+![Image](/rsc/01_img/03_RemoteSetup/RemoteToolsPage.png)
+
+Nun haben wir die verschiedenen Tools aufgezählt, die es für den Controller gibt. Um das Übertragungsmodul zu konfigurieren, müssen wir in das Tool **ExpressLRS** gelangen. Mit dem Bestätigen des Drehrads gelangst du in ExpressLRS und solltest diesen Bildschirm sehen:
+
+![Image](/rsc/01_img/03_RemoteSetup/RemoteLuaScript.png)
+
+Nun können wir auch schon die erste Einstellung verändern. Und zwar müssen wir die erste Zeile mit dem Namen **Packet Rate** verändern (im Bild markiert). Diese musst du auf 150Hz einstellen. (Wenn die Paketrate bereits auf **150 Hz** eingestellt ist, kannst du zurück zum Startbildschirm gehen)
 
 
 ## [Klicke hier, um zurück zur Übersicht der Kapitel zu kommen!](/README.md#kapitel)
