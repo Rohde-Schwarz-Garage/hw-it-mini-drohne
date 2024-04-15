@@ -53,7 +53,13 @@ Mit Klick auf die Kachel öffnet sich dann ein Fenster in dem du nur noch im Dro
 
 ![Image](/rsc/01_img/05_FlightControllerSetup/BetaflightExpressLRS.png)
 
-Wenn du die Haken gesetzt hast, dann kannst du auf _Auswählen_ (12) drücken. Anschließend laden wir noch ein paar Einstellungen, die schon extra für dich vorbereitet wurden, indem du auf _Backup laden_ (13) drückst. Du wirst dann aufgefordert eine passende Datei auszuwählen. Du findest sie [hier](/rsc/03_software/01_betaflight) mit dem Namen _Backup_Drohne.txt_. Wenn du diese Backup-Datei geöffnet hast, dann kannst du auf Speichern und _Neustarten_ (14) drücken. Der Flight Controller startet nun neu und wird sich gleich darauf wieder automatisch verbinden.
+Wenn du die Haken gesetzt hast, dann kannst du auf _Auswählen_ (12) drücken. Anschließend laden wir noch ein paar Einstellungen, die schon extra für dich vorbereitet wurden, indem du auf _Backup laden_ (13) drückst. Du wirst dann aufgefordert eine passende Datei auszuwählen. Du findest sie [hier](/rsc/03_software/01_betaflight) mit dem Namen _Backup_Drohne.txt_. Um sie im *Betaflight Configurator* öffnen zu können musst du sie zuerst aus Git downloaden. Klicke dazu auf die zwei unten markierten Schaltflächen.
+
+![Image](/rsc/01_img/05_FlightControllerSetup/BetflightBackup_howToOpen.png)
+
+![Image](/rsc/01_img/05_FlightControllerSetup/BetflightBackup_howToDownload.png)
+
+Wenn du diese Backup-Datei im *Betaflight Configurator* geöffnet hast, dann kannst du auf Speichern und _Neustarten_ (14) drücken. Der Flight Controller startet nun neu und wird sich gleich darauf wieder automatisch verbinden.
 
 Damit sind wir fürs erste mit dem Flight Controller selbst fertig. Bitte lies nun unbedingt **zuerst** die [Sicherheitshinweise](/docs/09_Safety.md) und fahre **erst dann** mit der weiteren Einrichtung fort.
 
