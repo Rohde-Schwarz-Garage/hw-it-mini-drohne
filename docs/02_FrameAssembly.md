@@ -79,4 +79,7 @@ Trage also etwas Uhu Extrem Kleber auf beide Klebeflächen auf und presse das Un
 ![Image](/rsc/01_img/02_FrameAssembly/StandGlueApplied.png)
 ![Image](/rsc/01_img/02_FrameAssembly/StandGluePressed.png)
 
-Ab jetzt legst du Drohne und den Standfuß in eine Ecke, wo die Gefahr möglichst gering ist, dass die angeklebten Teile in den nächsten 20min nochmal verrutschen.
+Ab jetzt legst du Drohne und den Standfuß in eine Ecke, wo die Gefahr möglichst gering ist, dass die angeklebten Teile in den nächsten 20 Minuten verrutschen.
+
+
+## [Klicke hier, um zurück zur Übersicht der Kapitel zu kommen!](/README.md#kapitel)
