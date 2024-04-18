@@ -22,7 +22,7 @@ In diesem Projekt wirst du eine kleine Drohne bauen. Dazu beschäftigst du dich 
 # Kapitel
 <!--- Trennbalken bei Überschriften Level 1 (#) + kann kopiert werden --->
 
-Um zu einer funktionierenden Drohne zu gelangen folge einfach den Kapiteln. An Ende jedes Kapitels kommst wieder auf diese Seite.
+Um zu einer funktionierenden Drohne zu gelangen folge einfach den Kapiteln. Am Ende jedes Kapitels kommst wieder auf diese Seite.
 
 <!--- Weitere Indexe sind immer möglich --->
 1. [Vorbereitung Material und Software](/docs/01_Materials.md)

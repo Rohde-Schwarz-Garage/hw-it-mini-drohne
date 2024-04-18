@@ -2,12 +2,15 @@
 Nachdem wir alles richtig eingestellt haben, kommen wir jetzt zum Funktionstest.
 
 **Grundlegende Steuerung:**
+
 ![Image](/rsc/01_img/06_TestingAndTuning/BasicControl_OnlyRemote.png)
 ![Image](/rsc/01_img/06_TestingAndTuning/DroneDirections.png)
 
 Als erstes schaltest du die Fernbedienung ein, bis du wieder den Startbildschirm siehst. Danach steckst du die Batterie der Drohne an die Drohne dran. 
 Um die Drohne zu starten, müssen wir erst ein paar Bedingungen erfüllen:
+
 1.	Die Drohne darf nicht an den PC angeschlossen sein 
+
 2.	Die Drohne muss waagrecht auf einer Fläche stehen.  
 
 Gut, nachdem du die Bedingungen erfüllt hast kannst du jetzt die Drohne starten. Als erstes müssen wir den linken Joystick ganz nach unten drücken und danach musst du den **Arm-Button** drücken. Nun sollten sich schon die Propeller drehen und die Drohne ist bereit zu fliegen. 
@@ -31,20 +34,22 @@ Bevor du mit dem Trimming des Beschleunigungssensors beginnst, musst du diesen u
 
 **Hier sind die Schritte, die du befolgen musst:**
 1.	Schalte die Fernbedienung ein.
+
 2.	Schiebe die Batterie in den Einschub an der Drohne und verbinde anschließend die Batterie mit der Drohne. Stelle die Drohne auf eine waagrechte, glatte Fläche.
+
 3.	Prüfe, ob die Drohne vollständig eben auf ihren Standfüßen steht.
 
-![Image](/rsc/01_img/06_TestingAndTuning/DroneOnPlane.png)
+    ![Image](/rsc/01_img/06_TestingAndTuning/DroneOnPlane.png)
 
 4.  Führe den Stick Befehl für die Gyroskop-Kalibrierung durch, indem du den linken Stick in der linken unteren Ecke und gleichzeitig den rechten Stick unten in der Mitte für einige Sekunden hältst. Auf dem Bild ist die Position der Sticks nochmals dargestellt
 
-![Image](/rsc/01_img/06_TestingAndTuning/StickGyroCalibration.png)
+    ![Image](/rsc/01_img/06_TestingAndTuning/StickGyroCalibration.png)
 
-![Image](/rsc/01_img/06_TestingAndTuning/RemoteGyroCalibration.png)
+    ![Image](/rsc/01_img/06_TestingAndTuning/RemoteGyroCalibration.png)
 
 5. Warte einige Sekunden und führe dann den Stick Befehl für die Beschleunigungssensor-Kalibrierung aus, indem du den linken Stick in der linken oberen Ecke und gleichzeitig den rechten Stick unten in der Mitte für einige Sekunden hältst.
 
-![Image](/rsc/01_img/06_TestingAndTuning/StickAccellCalibration.png)
+    ![Image](/rsc/01_img/06_TestingAndTuning/StickAccellCalibration.png)
 
 6.  Führe einen kurzen Flugtest durch. Dafür armst du die Drohne (wie vorhergehend in den Sicherheitshinweisen beschrieben) und gibst Schub bis die Drohne abhebt und schwebt, ohne sie durch den Raum zu steuern. Ein leichtes Driften oder ungleichmäßiges Halten der Höhe stört an dieser Stelle nicht. Das werden wir im nächsten Schritt ausgleichen.
 
@@ -64,11 +69,13 @@ Kontrolliere zusätzlich, dass der Akku mindestens halb voll ist.
 
 **Das eigentliche Trimmen:**
 1.	Schalte die Fernsteuerung an und verbinde die Drohne wie bereits vorhergehend beschrieben mit dem Akku. Stelle die Drohne anschließend in die Raummitte.
+
 2.	Arme die Drohne und führe den Schubregler in die Mitte, bis er die neutrale Position erreicht.
+
 3.	Wenn die Drohne an Höhe verliert oder gar nicht erst abhebt, trimme den Schubregler nach oben. Wenn die Drohne stetig an Höhe gewinnt, trimme Schubregler nach unten. Dafür bewegst du den Trimm-Regler in die entsprechende Richtung und fügst somit eine Einheit Trimm hinzu. Der Vorgang lässt sich beliebig wiederholen und summiert somit den Trimm auf.  
 Den Regler zum Trimmen findest du auf der Fernsteuerung, wie auf dem Bild ersichtlich. Das Trimmen des Schubreglers ist auch während dem Flug möglich, um die Auswirkungen direkt zu sehen.
 
-![Image](/rsc/01_img/06_TestingAndTuning/RemoteThrottleTrim.png)
+    ![Image](/rsc/01_img/06_TestingAndTuning/RemoteThrottleTrim.png)
 
 4.	Trimme so lange, bis die Drohne ihre Höhe selbstständig hält. Das kann etwas Geduld erfordern aber lohnt sich am Ende.
 
@@ -81,9 +88,12 @@ Den Regler zum Trimmen findest du auf der Fernsteuerung, wie auf dem Bild ersich
 
 **Hier sind die Schritte, die du befolgen musst:**
 1.	Nachdem du deine Drohne sicher in die Mitte des Raums gebracht hast, lass sie schweben und beobachte, in welche Richtung sie driftet. Während des Prozesses solltest du darauf achten, den rechten Stick so wenig wie möglich zu benutzen. Sollte die Drohne nach links driften, wird dies durch ein Trimmen nach rechts ausgeglichen.
+
 2.	Sobald du die Richtung des Driftens ermittelt hast, lande die Drohne und deaktiviere die Motoren ("Disarm").
+
 3.	Als nächstes, führe den Stick Command, wie in der Darstellung ersichtlich, aus, um den Beschleunigungssensor in die entgegengesetzte Richtung des Driftens zu trimmen.  
 **Für unser Beispiel bedeutet dies:** Wenn die Drohne nach links driftet, führe den Stick Command für ein Trimmen nach rechts aus. Dies trimmt um eine Einheit nach rechts, ein mehrmaliges Wiederholen ist möglich und summiert die Einheiten auf.
+
 4.	Lasse die Drohne erneut schweben und überprüfe, ob noch Drift auftritt. Sollte die Drohne nun gleichmäßig schweben, hast du das Trimmen erfolgreich abgeschlossen. Falls noch Drift vorhanden ist, wiederhole die Schritte, bis die Drohne stabil schwebt.
 
 Das korrekte Trimmen des Beschleunigungssensors ist eine wichtige Fähigkeit, die dir dabei helfen wird, die volle Kontrolle über deine Drohne zu erhalten und das bestmögliche Flugerlebnis zu erzielen. Es verlangt Geduld und Genauigkeit, aber die Belohnung einer gut abgestimmten Drohne ist es definitiv wert.

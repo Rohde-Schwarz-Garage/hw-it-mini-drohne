@@ -20,15 +20,18 @@ Mache dir immer die potenzielle Gefahr bewusst, die von den Propellern und Motor
 **Wichtige Aspekte, die es zu befolgen gilt:**
 
 - **Aufladen:** Benutze immer ein Ladegerät, das speziell für LiPo-Akkus ausgelegt ist und lasse die Akkus während des Ladens nicht unbeaufsichtigt. Hier verwenden wird das VIFLY WhoopStor 3 Ladegerät. Bei diesem muss vor dem Aufladen eine **Ladespannung von 4,35V** und eine **Stromstärke von 0,5A** eingestellt werden.
+
     ![Image](/rsc/01_img/09_Safety/ChargerCharge.png)
 
 - **Minimale Spannung:** Achte besonders auf die Akkuspannung während des Fliegens. Sollte die Spannung eines Akkus während des Fluges unter den kritischen Wert von 3,5 Volt fallen, muss die Drohne gelandet werden. Die Fernbedienung wird dir ein Warnsignal geben, sobald die Batterie leer ist. Ebenfalls lässt sich in dem „Telemetry-Display“ der Fernbedienung der Ladestand als Balken anzeigen
+
     ![Image](/rsc/01_img/09_Safety/RemoteTelemetry.png)
 
 - **Lagerzeit:** Vermeide es, die Akkus über einen längeren Zeitraum (maximal 3 Tage) vollständig geladen oder entladen zu lagern, da dies ihre Leistungsfähigkeit und Lebensdauer erheblich beeinträchtigen kann.
 
 - **Lagerspannung:** LiPo-Akkus sollten niemals vollständig geladen oder entladen gelagert werden. Eine optimale Lagerspannung liegt bei ca. 3,8 Volt pro Zelle. Dies bedeutet, dass du die Akkus nach jedem Flug entladen oder vor dem Lagern auf diese Spannung aufladen solltest, wenn du beabsichtigst die Akkus über einen längeren Zeitraum nicht herzunehmen. Dies geschieht mit der Einstellung einer 
 **Ladespannung von 3,8V** und einer **Stromstärke von 0,5A**.
+
     ![Image](/rsc/01_img/09_Safety/ChargerStorage.png)
 
 - **Sichere Lagerung:** Um das Risiko im Falle eines Batteriefehlers zu minimieren, solltest du die Akkus immer in einem feuerfesten Behältnis lagern. Dies dient dazu das Restrisiko zu minimieren. Optimal hierfür wäre ein Keramiktopf abgedeckt mit einem Teller. Der Lagerort sollte ebenfalls vor direkter Sonneneinstrahlung geschützt und trocken sein.
@@ -50,7 +53,7 @@ Sollte während des Flugs etwas Unvorhersehbares passieren oder du möchtest ein
 
 Es ist wichtig, diese Prozedur immer im Hinterkopf zu behalten, um auf unvorhergesehene Ereignisse schnell reagieren zu können und um allen Anwesenden ein hohes Maß an Sicherheit zu gewährleisten. Fliege immer verantwortungsbewusst und stelle sicher, dass du deine Drohne jederzeit im Blick hast. Durch Beachtung dieser Hinweise wird das Fliegen zu einem sicheren und spaßigen Erlebnis.
 
-## ## [Klicke hier, um zurück zum Zusammenbau der Drohne zu kommen!](/docs/04_DroneAssembly.md#propeller)
+## [Klicke hier, um zurück zum Zusammenbau der Drohne zu kommen!](/docs/04_DroneAssembly.md#propeller)
 
 ## [Klicke hier, um zurück zum Setup des Flight-Controllers zu kommen!](/docs/05_FlightControllerSetup.md#konfiguration-motorsteuerung)
 
