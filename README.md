@@ -9,11 +9,13 @@
 
 # Verantwortlichkeiten
 <!--- Trennbalken bei Überschriften Level 1 (#) + kann kopiert werden --->
+![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
 Ausbildung Informatik, LJ2023
 
 # Beschreibung
 <!--- Trennbalken bei Überschriften Level 1 (#) + kann kopiert werden --->
+![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
 In diesem Projekt wirst du eine kleine Drohne bauen. Dazu beschäftigst du dich mit dem Zusammenbau der Komponenten sowie der verwendeten Software und dem anschließenden Tuning. Das Endziel wird es sein, dass die Drohne eigenständig fliegt und von dir einfach gesteuert werden kann.
 
@@ -21,6 +23,7 @@ In diesem Projekt wirst du eine kleine Drohne bauen. Dazu beschäftigst du dich 
 
 # Kapitel
 <!--- Trennbalken bei Überschriften Level 1 (#) + kann kopiert werden --->
+![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
 Um zu einer funktionierenden Drohne zu gelangen folge einfach den Kapiteln. Am Ende jedes Kapitels kommst wieder auf diese Seite.
 
@@ -32,5 +35,5 @@ Um zu einer funktionierenden Drohne zu gelangen folge einfach den Kapiteln. Am E
 5. [Einrichtung Flight-Controller](/docs/05_FlightControllerSetup.md)
 7. [Testen und Tunen der Drohne](/docs/06_TestingAndTuning.md)
 8. [Möglichkeiten zum Ausbau des Projekts](/docs/07_Outlook.md)
-9. [Links zu interessanten Webseiten und zu den verwendeten Bauteilen](/docs/08_Links.md)
+9. [Links zu den verwendeten Bauteilen](/docs/08_Links.md)
 10. [Sicherheitshinweise](/docs/09_Safety.md)

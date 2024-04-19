@@ -1,4 +1,5 @@
 # Zusammenbau Rahmen
+![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
 
 ## Grundlegende Komponenten einer Drohne
@@ -38,9 +39,7 @@ Die Spannung (5) ist lediglich die Eingangs-Spannung des Netzteils. Diese kann a
 Wenn der Akku fertig geladen ist, sprich die Spannung des Akkus (7) gleich der Zielspannung (6) ist, dann stoppt das Ladegerät für diesen Akku automatisch und zeigt *OK!* (8) an.
 
 
-## Zusammenbau Rahmen
-
-### 3D-Druck
+## 3D-Druck
 
 Einige Teile der Drohne werden aus Plastik gedruckt. Dies sind die farbigen Markierungen des Rahmens, der Standfuß und die Deckplatte. Wenn du vor Ort in der Garage das Projekt machst sind die Teile bereits vorgedruckt und du musst dich mit der Thematik nicht weiter beschäftigen.
 
@@ -51,7 +50,7 @@ Mit den STEP-Dateien kannst du in einem CAD-Programm deiner Wahl Änderungen an 
 Geeignete Materialien für Standfuß und Deckplatte sind **PETG oder ABS**. Für die Markierungen solltest du **TPU** verwenden, falls dein Drucker dies drucken kann. Ansonsten verwende ebenfalls PETG oder ABS. Die Farben für die zwei Markierungen sollten farblich gut unterscheidbar sein, da sie die als Orientierung für die Ausrichtung der Drohne dienen.
 
 
-### Kleben der Markierungen und des Standfußes
+## Kleben der Markierungen und des Standfußes
 
 Als allererstes werden wir der Drohne ein *Vorne* und ein *Hinten* geben.
 

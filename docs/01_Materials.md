@@ -1,4 +1,5 @@
 # Benötigtes Material
+![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
 In diesem Abschnitt findest du alles, was du benötigst, um dieser Anleitung folgen zu können.
 
@@ -46,7 +47,8 @@ In diesem Abschnitt findest du alles, was du benötigst, um dieser Anleitung fol
 | Lüfter                                                    | 5   |
 
 
-## Software
+# Software
+![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
 | Software                                  | Link                                                             |
 |-------------------------------------------|------------------------------------------------------------------|
@@ -57,7 +59,7 @@ In diesem Abschnitt findest du alles, was du benötigst, um dieser Anleitung fol
 | Zadig USB Driver Installer                | [Klicke hier](https://zadig.akeo.ie/)                |
 
 
-### Installation Betaflight Konfigurator
+## Installation Betaflight Konfigurator
 
 Ab hier beginnt die Anleitung. Folge ihr Schritt für Schritt, um zum Schluss das gewünschte Ergebnis zu erzielen.  
 > Generell versucht die Anleitung möglichst geradlinig zum Ziel „Du steuerst und fliegst die Drohne“ zu kommen. Wenn du aber verstehen möchtest, warum dabei gerade ein Schritt so gemacht wird, wie er gemacht wird, dann sind fast überall in der Anleitung eingerückte Kästen zu finden. Dort werden genau diese Hintergründe beleuchtet.
@@ -68,7 +70,7 @@ Ab hier beginnt die Anleitung. Folge ihr Schritt für Schritt, um zum Schluss da
 2.	Führe die heruntergeladene Datei aus und folge den Anweisungen. Nach dem Fertigstellen kannst du den Konfigurator gleich wieder schließen, falls dieser sich geöffnet hat
 
 
-### Installation ExpressLRS Konfigurator
+## Installation ExpressLRS Konfigurator
 
 1.	Öffne den Link und lade die Version 1.6.1 in der passenden Version für dein Betriebssystem herunter (für 64bit Windows: ExpressLRS-Configurator-Setup-1.6.1.exe)
     ![Image](/rsc/01_img/01_Materials/ExpressLRSDownload.png)
@@ -76,7 +78,7 @@ Ab hier beginnt die Anleitung. Folge ihr Schritt für Schritt, um zum Schluss da
 2.	Führe die heruntergeladene Datei aus und folge den Anweisungen. Nach dem Fertigstellen kannst du den Konfigurator gleich wieder schließen, falls dieser sich geöffnet hat
 
 
-### Installation STM32 Virtual COM Port Treiber
+## Installation STM32 Virtual COM Port Treiber
 
 1.	Öffne den Link zur Herstellerseite und klicke auf „Get Latest“
     ![Image](/rsc/01_img/01_Materials/STM32DriverDownload.png)
@@ -89,7 +91,7 @@ Ab hier beginnt die Anleitung. Folge ihr Schritt für Schritt, um zum Schluss da
 7.	Starte deinen PC neu, damit der Treiber vollständig installiert ist
 
 
-### Installation Zadig USB Treiber
+## Installation Zadig USB Treiber
 
 1.	Öffne den Link und lade die neueste Version von Zadig herunter
 2.	Wenn du an späteren Stellen in der Anleitung auf Probleme bei Installationen stößt, wirst du an diese Stelle verwiesen und kannst fehlende Treiber installieren.

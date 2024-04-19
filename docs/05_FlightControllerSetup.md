@@ -1,4 +1,15 @@
+# Inhalt
+![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
+
+1. [Einrichten Flight-Controller](#einrichten-flight-controller)
+
+2. [Konfiguration Motorsteuerung](#konfiguration-motorsteuerung)
+
+3. [Konfiguration Empfangsmodul](#konfiguration-empfangsmodul)
+
+
 # Einrichten Flight-Controller
+![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
 Damit die Drohne fliegen kann muss nicht nur die Hardware korrekt zusammengebaut sein, sondern auch die Software richtig konfiguriert sein. Einen Großteil, die Flugsteuerung im Flight Controller, werden wir in diesem Kapitel erledigen.
 
@@ -63,7 +74,9 @@ Wenn du diese Backup-Datei im *Betaflight Configurator* geöffnet hast, dann kan
 
 Damit sind wir fürs erste mit dem Flight Controller selbst fertig. Bitte lies nun unbedingt **zuerst** die [Sicherheitshinweise](/docs/09_Safety.md) und fahre **erst dann** mit der weiteren Einrichtung fort.
 
+
 # Konfiguration Motorsteuerung
+![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
 Als nächstes konfigurieren wir die ESCs, also die Motorsteuerung.
 
@@ -115,7 +128,9 @@ Zum Schluss musst du nur noch die _Einstellungen schreiben_ (17). Um sicherzugeh
 
 ![Image](/rsc/01_img/05_FlightControllerSetup/ESCConfiguratorReverse.png)
 
+
 # Konfiguration Empfangsmodul
+![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
 Bevor wir zum Jungfernflug deiner Drohne kommen können, ist der letzte Schritt noch das Empfangsmodul zu konfigurieren. Den Akku kannst du wieder von der Drohne trennen. Er ist nur nötig, um die Motoren drehen zu lassen. Für alles andere genügt die Spannungsversorgung per USB. Analog zur [Konfiguration Übertragungsmodul](/docs/03_RemoteSetup.md#konfiguration-übertragungsmodul) verwenden wir wieder den _ExpressLRS Configurator_. Achte darauf, dass sowohl _Betaflight Configurator_ und _ESC Configurator_ geschlossen, sowie außerdem die Fernbedienung ausgeschaltet ist.
 

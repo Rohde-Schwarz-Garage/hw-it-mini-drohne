@@ -1,4 +1,5 @@
 # Zusammenbau Drohne
+![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
 Nachdem du nun die Fernbedienung und das Übertragungsmodul eingerichtet hast, geht es jetzt an den Zusammenbau der eigentlichen Drohne.
 

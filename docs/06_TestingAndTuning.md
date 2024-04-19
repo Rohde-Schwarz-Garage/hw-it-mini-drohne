@@ -1,5 +1,8 @@
 # Funktionstest
+![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
+
 Nachdem wir alles richtig eingestellt haben, kommen wir jetzt zum Funktionstest.
+
 
 **Grundlegende Steuerung:**
 
@@ -16,7 +19,10 @@ Um die Drohne zu starten, müssen wir erst ein paar Bedingungen erfüllen:
 Gut, nachdem du die Bedingungen erfüllt hast kannst du jetzt die Drohne starten. Als erstes müssen wir den linken Joystick ganz nach unten drücken und danach musst du den **Arm-Button** drücken. Nun sollten sich schon die Propeller drehen und die Drohne ist bereit zu fliegen. 
 Um die Motoren wieder auszuschalten, musst du wieder den **Arm-Button** drücken.
 
+
 # Tuning
+![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
+
 Nachdem du erfolgreich alle Komponenten deiner Drohne getestet hast, folgt ein essenzieller Schritt: das Tuning der Drohne. Das erste Ziel wird es sein, dass die Drohne bei zentriertem Schubregler ihre Höhe hält. Des Weiteren soll etwaiges Driften der Drohne während des Fluges ausgeglichen werden, um somit einen stabilen und kontrollierten Flug zu gewährleisten.
 
 >Um das Phänomen des Driftens zu verstehen, ist es notwendig, die Rolle des Beschleunigungssensors innerhalb der Drohnensteuerung zu verdeutlichen. Dieser ist ein Sensor, der dazu dient, Beschleunigungen auf allen drei Achsen (x, y, z) zu messen. Er erfasst die Geschwindigkeitsänderung der Drohne sowie die Anwesenheit der Erdanziehungskraft und ermöglicht es dadurch der Drohne, ihre Lage in Bezug auf die Erdoberfläche zu bestimmen.
@@ -27,7 +33,9 @@ Nachdem du erfolgreich alle Komponenten deiner Drohne getestet hast, folgt ein e
 
 >Um also ein stabiles und kontrolliertes Flugerlebnis zu gewährleisten, ist es von essenzieller Bedeutung, die Kalibrierung und das Trimming des Beschleunigungssensors exakt durchzuführen. Dies hilft dabei, Driften der Drohne auszugleichen und ermöglicht einen stabilen und präzisen Flug.
 
+
 ## Kalibrierung Beschleunigungssensor und Gyroskop
+
 Bevor du mit dem Trimming des Beschleunigungssensors beginnst, musst du diesen und das Gyroskop kalibrieren. 
 
 >Das Gyroskop ist ein weiterer wichtiger Sensor in deiner Drohne. Es misst die Winkelgeschwindigkeit, also wie schnell sich die Drohne um ihre eigene Achse dreht. Damit sorgt das Gyroskop für Stabilität im Flug und hilft, die Drohne bei Wind oder bei Steuerbefehlen in der gewünschten Lage zu halten. 
@@ -55,7 +63,9 @@ Bevor du mit dem Trimming des Beschleunigungssensors beginnst, musst du diesen u
 
 Sollte die Drohne sehr unruhig fliegen bietet es sich an die Schritte 1 bis 5 zu wiederholen.
 
+
 ## Trimmen des Schubreglers
+
 >Damit die Drohne ruhig schweben kann muss sie eine gewisse Menge an Schub erzeugen, der ihr Eigengewicht ausgleicht. Dieser Schub soll erzeugt werden, wenn der Schubregler an der Fernsteuerung sich in der Mittelposition befindet. Um dies zu erreichen, wird durch Trimmen der an die Drohne übertragene Wert für den Schubregler verschoben, während die physische Position des Sticks gleichbleibt.
 
 **Vorbereitung vor dem Trimmen:**
@@ -79,7 +89,9 @@ Den Regler zum Trimmen findest du auf der Fernsteuerung, wie auf dem Bild ersich
 
 4.	Trimme so lange, bis die Drohne ihre Höhe selbstständig hält. Das kann etwas Geduld erfordern aber lohnt sich am Ende.
 
+
 ## Trimmen des Beschleunigungssensors
+
 **Stickbefehle für das Trimmen:**
 
 ![Image](/rsc/01_img/06_TestingAndTuning/StickAccellTrim.png)
@@ -98,7 +110,9 @@ Den Regler zum Trimmen findest du auf der Fernsteuerung, wie auf dem Bild ersich
 
 Das korrekte Trimmen des Beschleunigungssensors ist eine wichtige Fähigkeit, die dir dabei helfen wird, die volle Kontrolle über deine Drohne zu erhalten und das bestmögliche Flugerlebnis zu erzielen. Es verlangt Geduld und Genauigkeit, aber die Belohnung einer gut abgestimmten Drohne ist es definitiv wert.
 
+
 ## Spaß haben
+
 Herzlichen Glückwunsch, deine Drohne ist nun voll flugfähig!
 
 Um deine Flugkünste zu trainieren kannst du dir noch selbst etwaige Szenarien überlegen. Beispielsweise ein Slalomkurs, durch den du fliegen musst, ohne die Pylonen zu berühren. Als Pylonen lassen sich dabei wunderbar Stühle missbrauchen, sowohl oberhalb der Sitzflächen die Stuhllehnen als auch die Stuhlbeine unterhalb. Deiner Fantasie sind keine Grenzen gesetzt. Viel Spaß!

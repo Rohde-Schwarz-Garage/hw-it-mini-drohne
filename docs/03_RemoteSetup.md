@@ -1,4 +1,5 @@
 # Navigation und Einrichtung Fernbedienung
+![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
 ## Einlegen der Batterien und Aktivieren der selbstständigen Zentrierung
 
@@ -16,7 +17,8 @@ In der Anleitung wirst du nicht alle Tasten brauchen, aber es ist nützlich, sic
 ![Image](/rsc/01_img/03_RemoteSetup/RemoteManual.png)
 
 
-## Einrichten Fernbedienung
+# Einrichten Fernbedienung
+![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
 Damit die Fernbedienung das tut, was du möchtest, muss sie konfiguriert werden. Die nötigen Konfigurationen liegen schon auf dem PC, die folgenden Schritte zeigen dir, wie du diese auf die Fernbedienung ziehen kannst.
 
@@ -42,7 +44,9 @@ Warte nun, bis der Vorgang abgeschlossen wurde.
 
 Glückwunsch, du hast die benötigte Konfiguration auf die Fernbedienung übertragen. Im weiteren Verlauf wirst du nun einige Zusatzeinstellungen vornehmen.
 
-## Konfiguration Übertragungsmodul
+
+# Konfiguration Übertragungsmodul
+![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
 Damit sich die Fernbedienung mit der Drohne verbinden kann, müssen wir das Übertragungsmodul konfigurieren.
 
