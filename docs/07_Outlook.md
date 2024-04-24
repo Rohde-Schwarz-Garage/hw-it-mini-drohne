@@ -16,7 +16,7 @@ Es wird empfohlen, die Rates schrittweise um 0,05 zu erhöhen und anschließend 
 
 ## Erste Versuche den Acro-Modus zu bändigen
 
->Die Steuerung im Level Mode und Acro Mode unterscheidet sich tatsächlich erheblich und beeinflusst das Verhalten und die Reaktionsweise der Drohne auf die Eingaben des Piloten.
+>Die Steuerung im Angle Mode und Acro Mode unterscheidet sich tatsächlich erheblich und beeinflusst das Verhalten und die Reaktionsweise der Drohne auf die Eingaben des Piloten.
 
 >Im Angle Mode versucht die Drohne, ihre Nivellierung beizubehalten. Wenn du einen Steuereingriff ausführen, etwa eine Neigung nach links oder rechts, wird die Drohne nach links oder rechts neigen, aber sobald du den Steuerknüppel freigibst, wird die Drohne automatisch in eine flache, horizontale Position zurückkehren. Dieser Modus versucht, die Drohne stets stabil und ausgeglichen zu halten, was ihn ideal für Anfänger oder für Situationen macht, in denen Stabilität und einfache Steuerung wichtig sind.
 
