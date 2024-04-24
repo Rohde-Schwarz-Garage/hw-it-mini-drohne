@@ -11,7 +11,7 @@
 <!--- Trennbalken bei Überschriften Level 1 (#) + kann kopiert werden --->
 ![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
-Ausbildung Informatik, LJ2023
+Ausbildung Fachinformatik, LJ2023
 
 # Beschreibung
 <!--- Trennbalken bei Überschriften Level 1 (#) + kann kopiert werden --->

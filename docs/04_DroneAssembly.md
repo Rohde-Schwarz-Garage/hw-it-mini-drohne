@@ -14,7 +14,7 @@ Nimm die vier Motoren zur Hand. Wir werden diese am Rahmen anbringen. Dazu müss
 
 Da der Motor jetzt mit den zwei Schrauben an Ort und Stelle bleibt, trage auf die dritte Schraube einen kleinen Tropfen Schraubensicherung auf und ziehe sie vorsichtig fest. Fest bedeutet dabei wirklich nur, bis die Schraube ganz drin ist. Wende also nicht viel Kraft auf, da sie sonst eventuell abreißen könnte.
 
-Tipp: Wenn du statt der ganzen Hand nur zwei Finger zum Drehen des Schraubenziehers verwendest, wendest du automatisch weniger Kraft an. 
+**Tipp:** Wenn du statt der ganzen Hand nur zwei Finger zum Drehen des Schraubenziehers verwendest, wendest du automatisch weniger Kraft an. 
 
 ![Image](/rsc/01_img/04_DroneAssembly/ThreadlockApplication.png)
 
@@ -29,11 +29,11 @@ Den ganzen Prozess wiederholst du nochmal für die drei anderen Motoren. Achte a
 
 ## Flight Controller
 
-Zuerst musst du kontrollieren ob an dem Flight Controller der richtige Stecker angelötet ist. Dieser heißt A30 (1) und eignet sich am besten für kleine Drohnen. Alternativ kannst du für den Flight Controller auch BT2.0 (2) Stecker verwenden. Am Ende der Anleitung findest du Links zu den verwendeten Steckern. Diese sind als Pigtail vorgefertigt – Stecker sind bereits mit Kabeln vorbereitet – und die Verwendung spart dir viel Arbeit.
+Zuerst musst du kontrollieren ob an dem Flight Controller der richtige Stecker angelötet ist. Dieser heißt A30 (1) und eignet sich am besten für kleine Drohnen. Alternativ kannst du für den Flight Controller auch BT2.0 (2) Stecker verwenden. Am Ende der Anleitung findest du [Links](/docs/08_Links.md#drohne) zu den verwendeten Steckern. Diese sind als Pigtail vorgefertigt – Stecker sind bereits mit Kabeln vorbereitet – und die Verwendung spart dir viel Arbeit.
 
 ![Image](/rsc/01_img/04_DroneAssembly/DifferentPlugs.png)
 
-Sollte der Stecker noch nicht vorhanden sein so musst du diesen erst an den Flight Controller anlöten. Wenn du noch keine Erfahrung mit Löten hast, so findest du hier ein gutes Tutorial. Alternativ kannst du gerne zu uns in die Garage kommen und dich mit professionellem Equipment in das Löten einarbeiten. 
+Sollte der Stecker noch nicht vorhanden sein so musst du diesen erst an den Flight Controller anlöten. Wenn du noch keine Erfahrung mit Löten hast, so findest du [hier](https://www.conrad.de/de/ratgeber/handwerk/richtig-loeten-lernen.html) ein gutes Tutorial. Alternativ kannst du gerne zu uns in die Garage kommen und dich mit professionellem Equipment in das Löten einarbeiten. 
 
 Achte beim Löten des Steckers auf die **korrekte Polung**, da ansonsten es zu einer Beschädigung des Flight Controllers kommt, sobald du die Batterie ansteckst. Ebenfalls müssen die Kabel auf der Seite des Micro-USB Ports angelötet werden, da es ansonsten zu Problemen beim Verbau kommt.
 

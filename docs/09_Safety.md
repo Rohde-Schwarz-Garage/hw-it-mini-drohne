@@ -18,7 +18,7 @@ Mache dir immer die potenzielle Gefahr bewusst, die von den Propellern und Motor
 
 >Obwohl LiPos viele Vorteile bieten, bringen sie auch spezifische Risiken mit sich. LiPo-Akkus sind sehr empfindlich gegenüber Fehlbehandlungen und können bei falscher Lagerung, falschem Laden oder Tiefentladung Schaden nehmen. Im schlimmsten Fall können diese Akkus sogar Feuer fangen oder explodieren. Daher sind beim Umgang bestimmte Sicherheitsmaßnahmen zu beachten.
 
-**Wichtige Aspekte, die es zu befolgen gilt:**
+### Wichtige Aspekte, die es zu befolgen gilt:
 
 - **Aufladen:** Benutze immer ein Ladegerät, das speziell für LiPo-Akkus ausgelegt ist und lasse die Akkus während des Ladens nicht unbeaufsichtigt. Hier verwenden wird das VIFLY WhoopStor 3 Ladegerät. Bei diesem muss vor dem Aufladen eine **Ladespannung von 4,35V** und eine **Stromstärke von 0,5A** eingestellt werden.
 
@@ -54,7 +54,7 @@ Sollte während des Flugs etwas Unvorhersehbares passieren oder du möchtest ein
 
 Es ist wichtig, diese Prozedur immer im Hinterkopf zu behalten, um auf unvorhergesehene Ereignisse schnell reagieren zu können und um allen Anwesenden ein hohes Maß an Sicherheit zu gewährleisten. Fliege immer verantwortungsbewusst und stelle sicher, dass du deine Drohne jederzeit im Blick hast. Durch Beachtung dieser Hinweise wird das Fliegen zu einem sicheren und spaßigen Erlebnis.
 
-## [Klicke hier, um zurück zum Zusammenbau der Drohne zu kommen!](/docs/04_DroneAssembly.md#propeller)
+## [Klicke hier, um zurück zum Zusammenbau der Drohne zu kommen!](/docs/04_DroneAssembly.md#hinweis)
 
 ## [Klicke hier, um zurück zum Setup des Flight-Controllers zu kommen!](/docs/05_FlightControllerSetup.md#konfiguration-motorsteuerung)
 

@@ -3,7 +3,7 @@
 
 ## Einlegen der Batterien und Aktivieren der selbstständigen Zentrierung
 
-Nach dem Entfernen der gummierten Griffschalen kannst du die mit einem Torx 7 oder 2mm Innensechskantschlüssel die Selbstständige Zentrierung des Schubreglers aktivieren. Drehe hierfür die markierte Schraube entgegen dem Uhrzeigersinn bis sich der dazugehörige Gimbal federgestützt in der Mittelposition hält.
+Nach dem Entfernen der gummierten Griffschalen kannst du mit einem Torx 7 oder 2mm Innensechskantschlüssel die selbstständige Zentrierung des Schubreglers aktivieren. Drehe hierfür die markierte Schraube entgegen dem Uhrzeigersinn bis sich der dazugehörige Gimbal federgestützt in der Mittelposition hält.
 
 Nun kannst du die zwei 18650 Li-Ion Batterien einlegen. Achte dabei auf die **korrekte Polung**, wie sie in dem Bild markiert ist.
 
@@ -50,7 +50,7 @@ Glückwunsch, du hast die benötigte Konfiguration auf die Fernbedienung übertr
 
 Damit sich die Fernbedienung mit der Drohne verbinden kann, müssen wir das Übertragungsmodul konfigurieren.
 
-Solltest du an irgendeinem Punkt nicht weiterkommen liegt es möglicherweise an nicht installierten Treibern. In diesem Fall gehst du vor wie in 1.4.1 beschrieben und installierst die Treiber per *Zadig*.
+Solltest du an irgendeinem Punkt nicht weiterkommen liegt es möglicherweise an nicht installierten Treibern. In diesem Fall gehst du wie [hier](/docs/01_Materials.md#installation-zadig-usb-treiber) beschrieben vor und installierst die Treiber per *Zadig*.
 
 Zuerst starten wir die Fernbedienung mit einem langen Druck auf den Power Button bis das *EdgeTX*-Logo erscheint. Verbinde anschließend die Fernbedienung per USB-Kabel mit dem PC. Nimm dazu den oberen Anschluss an der Fernbedienung.
 
@@ -58,7 +58,7 @@ Es sollte dann folgende Anzeige auf der Fernbedienung erscheinen. Wähle mit dem
 
 ![Image](/rsc/01_img/03_RemoteSetup/RemoteUSBSerial.png)
 
-Öffne dann die Software ExpressLRS Configurator. Du findest sie im Ordner Drohne auf dem Desktop.
+Öffne dann die Software *ExpressLRS Configurator*. Du findest sie im Ordner Drohne auf dem Desktop.
 Das Fenster, das sich öffnet, sieht etwa so wie unten aus. Wähle die Werte so wie in (2,3,4) aus.
 
 ![Image](/rsc/01_img/03_RemoteSetup/RemoteExpressLRSConfigurator1.png)

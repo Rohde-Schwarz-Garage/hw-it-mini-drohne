@@ -43,7 +43,7 @@ Wenn der Akku fertig geladen ist, sprich die Spannung des Akkus (7) gleich der Z
 
 Einige Teile der Drohne werden aus Plastik gedruckt. Dies sind die farbigen Markierungen des Rahmens, der Standfuß und die Deckplatte. Wenn du vor Ort in der Garage das Projekt machst sind die Teile bereits vorgedruckt und du musst dich mit der Thematik nicht weiter beschäftigen.
 
-Wenn du die Teile bei dir zuhause mit einem einfarbigen Drucker druckst, findest du hier die STEP, STL, 3mf und G-Code Dateien. Wenn dein Drucker mehrere Materialien gleichzeitig drucken kann (z.B: Bambulab mit AMS) findest du hier STEP und STL-Dateien. 
+Wenn du die Teile bei dir zuhause mit einem einfarbigen Drucker druckst, findest du [hier](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FRohde-Schwarz-Garage%2Fhw-it-mini-drohne%2Ftree%2Fmain%2Frsc%2F02_printing%2F01_SingleMaterial) die STEP, STL, 3mf und G-Code Dateien. Wenn dein Drucker mehrere Materialien gleichzeitig drucken kann (z.B: Bambulab mit AMS) findest du [hier](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FRohde-Schwarz-Garage%2Fhw-it-mini-drohne%2Ftree%2Fmain%2Frsc%2F02_printing%2F02_MultiMaterial) STEP und STL-Dateien. 
 
 Mit den STEP-Dateien kannst du in einem CAD-Programm deiner Wahl Änderungen an den Teilen vornehmen. Die STL-Dateien kannst du in einen Slicer deiner Wahl laden und für deinen eigenen Drucker G-Codes erstellen. Als Besonderheit findest du auch 3mf Projekt-Dateien für den PrusaSlicer. Diese sind nach dem Muster *ZuDruckendeTeile_Material_Drucker.3mf* benannt. Nach dem gleichen Muster sind auch fertig geslicte Dateien für den für den Prusa MK3s mit der Endung .gcode verfügbar. Achte stets darauf nur Dateien zu Drucken, die für den 3D-Drucker und das geladene Material gedacht sind, ansonsten kann es zu Schäden an dem Drucker kommen.
 
@@ -58,14 +58,14 @@ Als allererstes werden wir der Drohne ein *Vorne* und ein *Hinten* geben.
 
 Da der Kleber für den Standfuß etwa 20min braucht, um einigermaßen fest zu werden, starten wir mit den Klebeteilen. Bis der Kleber angetrocknet ist, werden wir uns dann mit der Fernbedienung beschäftigen.
 
-Allgemein solltest du alle Klebeflächen einmal abwischen, **bevor** du Kleber oder Klebeband anbringst, um Fettrückstände und Verunreinigungen zu entfernen.#
+Allgemein solltest du alle Klebeflächen einmal abwischen, **bevor** du Kleber oder Klebeband anbringst, um Fettrückstände und Verunreinigungen zu entfernen.
 
 Zuerst bringen wir die **blaue** Markierung auf einer beliebigen Seite, die senkrecht zur im Bild eingezeichneten Mittelachse (1) liegt, an. Um die Achse zu finden, kannst du dich auch an der pfeilartigen Stelle im Rahmen (2) orientieren. Du nimmst also das doppelseitige Klebeband und klebst es so wie unten zu sehen, auf den Außenseiten des Rahmens an. Du kannst das Band an einem Stück anbringen oder in Einzelteilen, wie es dir lieber ist. Entferne die Schutzfolie des Klebebandes erst, wenn es an Ort und Stelle ist und du die Markierung ankleben willst. Das vereinfacht das initiale Ankleben deutlich.
 
 ![Image](/rsc/01_img/02_FrameAssembly/FrameTaped.png)
 ![Image](/rsc/01_img/02_FrameAssembly/FrameCenterLine.png)
 
-Drücke dann die Markierung wie auf dem Foto an den Rahmen an. Anschließend machst du das gleiche mit der **roten** Markierung auf der gegenüberliegenden Seite der Drohne. 
+Drücke dann die Markierung wie auf dem Foto an den Rahmen an. Anschließend machst du das Gleiche mit der **roten** Markierung auf der gegenüberliegenden Seite der Drohne. 
 
 ![Image](/rsc/01_img/02_FrameAssembly/FrameMarked.png)
 

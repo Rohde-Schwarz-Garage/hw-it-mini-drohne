@@ -33,7 +33,7 @@ Sobald also ausschließlich die rote LED blinkt, öffne auf dem PC das Programm 
 
 >_Betaflight Configurator_ ist eine Software, mit der die Firmware auf den Flight Controller geflashed werden kann und anschließend dann alle Einstellungen vorgenommen werden können, damit der Flight Controller genau das macht, was du möchtest. Der Zugriff erfolgt über die USB-Verbindung. Um also Einstellungen zu tätigen, muss der Flight Controller später wieder per USB-Kabel verbunden werden.
 
-Wähle nun links den Reiter _Firmware Flasher_ (1). Im Einstellungsfeld (2) wählst du BetaflightF4, **in der Version 4.4.3** und aktivierst **Chip vollständig löschen**. Dann sollte das Fenster so aussehen wie auf dem Bild. Wichtig ist, dass oben rechts DFU – STM32 Bootloader angezeigt wird. Das bestätigt, dass der Flight Controller im richtigen Modus ist und damit auch, dass du davor beim Verbinden der Kontakte alles richtig gemacht hast. Eine mögliche Fehlerquelle können auch wieder fehlende Treiber sein. In diesem Fall insbesondere der STM32-Treiber. Halte dich an die Anleitung in [Installation Software und Treiber](/docs/01_Materials.md#installation-betaflight-konfigurator), um das zu beheben. Achte außerdem darauf, dass alle anderen Programme geschlossen sind.
+Wähle nun links den Reiter _Firmware Flasher_ (1). Im Einstellungsfeld (2) wählst du BetaflightF4, **in der Version 4.4.3** und aktivierst **Chip vollständig löschen**. Dann sollte das Fenster so aussehen wie auf dem Bild. Wichtig ist, dass oben rechts DFU – STM32 Bootloader angezeigt wird. Das bestätigt, dass der Flight Controller im richtigen Modus ist und damit auch, dass du davor beim Verbinden der Kontakte alles richtig gemacht hast. Eine mögliche Fehlerquelle können auch wieder fehlende Treiber sein. In diesem Fall insbesondere der STM32-Treiber. Halte dich an die Anleitung in [Installation Software und Treiber](/docs/01_Materials.md#installation-stm32-virtual-com-port-treiber), um das zu beheben. Achte außerdem darauf, dass alle anderen Programme geschlossen sind.
 
 ![Image](/rsc/01_img/05_FlightControllerSetup/BetaflightFlash.png)
 
@@ -82,13 +82,13 @@ Als nächstes konfigurieren wir die ESCs, also die Motorsteuerung.
 
 >Wie in der grundlegenden Beschreibung der Drohne (2.1) erwähnt sind die ESCs (Electronic Speed Controller) dafür verantwortlich die Energie so an die Motoren zu leiten, wie es der Flight Controller vorgibt. Um das korrekt ausführen zu können, müssen die ESCs aber einige Parameter übergeben bekommen. Genau das machen wir in diesem Kapitel.
 
-Entferne den Akku vom Ladegerät und verbinde ihn mit der Drohne. Lass dich nicht verunsichern, ein eventuel-les Piepsen der Drohne beim Anstecken des Akkus ist ganz normal. Verbinde dann die Drohne per USB-Kabel an den PC. Vergiss dabei nicht, wieder den Lüfter auf die Drohne zu richten. Öffne im Browser [esc-configurator.com](https://esc-configurator.com). Achte darauf, dass sowohl der _Betaflight Configurator_ als auch der _ExpressLRS Configurator_ geschlossen sind, während du im _ESC Configurator_ arbeitest. Außerdem muss die Fernbedienung ausgeschaltet sein. Das Browser-Fenster sollte wie unten aussehen.
+Entferne den Akku vom Ladegerät und verbinde ihn mit der Drohne. Lass dich nicht verunsichern, ein eventuelles Piepsen der Drohne beim Anstecken des Akkus ist ganz normal. Verbinde dann die Drohne per USB-Kabel an den PC. Vergiss dabei nicht, wieder den Lüfter auf die Drohne zu richten. Öffne im Browser [esc-configurator.com](https://esc-configurator.com). Achte darauf, dass sowohl der _Betaflight Configurator_ als auch der _ExpressLRS Configurator_ geschlossen sind, während du im _ESC Configurator_ arbeitest. Außerdem muss die Fernbedienung ausgeschaltet sein. Das Browser-Fenster sollte wie unten aussehen.
 
 Port und Baud-Rate rechts oben (1) sollten schon automatisch vorausgewählt sein. Falls sie nicht vorausgewählt sind, dann gehe auf _Seriellen Port wählen_ und wähle _Betaflight STM32_ aus. Anschließend kannst du auf _Verbinden_ (2) drücken.
 
 ![Image](/rsc/01_img/05_FlightControllerSetup/ESCConfiguratorStartPage.png)
 
-Drücke dann _Einstellungen lesen_ (3), um die aktuellen Parameter der Motoren auszulesen. Wenn hier ein Fehler auftritt oder die Einstellungen einfach nicht ausgelesen werden, dann empfiehlt sich mittels _Zadig_ etwaige fehlende Treiber nochmals zu installieren (siehe [Installation Software und Treiber](/docs/01_Materials.md#installation-betaflight-konfigurator)).
+Drücke dann _Einstellungen lesen_ (3), um die aktuellen Parameter der Motoren auszulesen. Wenn hier ein Fehler auftritt oder die Einstellungen einfach nicht ausgelesen werden, dann empfiehlt sich mittels _Zadig_ etwaige fehlende Treiber nochmals zu installieren (siehe [Installation Software und Treiber](/docs/01_Materials.md#software)).
 
 ![Image](/rsc/01_img/05_FlightControllerSetup/ESCConfiguratorReadSettings.png)
 
@@ -140,7 +140,7 @@ Schließe die Drohne per USB-Kabel am PC an. Öffne den _ExpressLRS Configurator
 
 ![Image](/rsc/01_img/05_FlightControllerSetup/ExpressLRSFligthController2.png)
 
-Sobald du alle Einstellungen getroffen hast, musst du nur noch auf _Auf Gerät Installieren_ (6) drücken. Dann startet die Installation und wird am Ende mit Operation erfolgreich abgeschlossen quittiert. Kommt es zu Fehlern, liegt es wahrscheinlich an fehlenden Treibern, die du per _Zadig_ nachinstallieren kannst (siehe [Installation Software und Treiber](/docs/01_Materials.md#installation-betaflight-konfigurator)). Kontrolliere außerdem, ob alle anderen Programme geschlossen sind und der richtige COM-Port ausgewählt ist.
+Sobald du alle Einstellungen getroffen hast, musst du nur noch auf _Auf Gerät Installieren_ (6) drücken. Dann startet die Installation und wird am Ende mit Operation erfolgreich abgeschlossen quittiert. Kommt es zu Fehlern, liegt es wahrscheinlich an fehlenden Treibern, die du per _Zadig_ nachinstallieren kannst (siehe [Installation Software und Treiber](/docs/01_Materials.md#installation-zadig-usb-treiber)). Kontrolliere außerdem, ob alle anderen Programme geschlossen sind und der richtige COM-Port ausgewählt ist.
 
 Du kannst den _ExpressLRS Configurator_ jetzt schließen.
 

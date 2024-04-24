@@ -50,5 +50,6 @@ Die Fernsteuerung und das Ladegerät, die du für dieses Projekt benötigst, sin
 | Lüfter                                                    | 5   |[LogiLink UA0403 USB-Ventilator](https://www.conrad.de/de/p/logilink-ua0403-usb-ventilator-b-x-h-x-t-180-x-126-x-195-mm-2813812.html)|[LogiLink UA0402 USB-Ventilator](https://www.conrad.de/de/p/logilink-ua0402-usb-ventilator-b-x-h-x-t-140-x-115-x-147-mm-2813811.html)|
 
 
+## [Klicke hier, um zurück zur Vorbereitung von Material und Software zu kommen!](/docs/01_Materials.md)
 
 ## [Klicke hier, um zurück zur Übersicht der Kapitel zu kommen!](/README.md#kapitel)

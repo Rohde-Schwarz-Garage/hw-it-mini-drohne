@@ -22,7 +22,7 @@ Es wird empfohlen, die Rates schrittweise um 0,05 zu erhöhen und anschließend 
 
 >Der Acro Mode hingegen ist viel direkter und bietet dem Piloten volle Kontrolle über die Drohne. In diesem Modus wird die Drohne nicht automatisch stabilisiert oder auf eine horizontale Position zurückgesetzt. Stattdessen bleibt die Drohne in der Position, in die du sie gebracht hast. Wenn du also den Steuerknüppel loslässt, nachdem du die Drohne in eine Neigung versetzt hast, bleibt sie in dieser Neigung und kehrt nicht automatisch in die horizontale Position zurück. Dies erfordert mehr Geschick durch den Piloten, ermöglicht aber auch mehr Kontrolle und Flexibilität bei der Durchführung von Manövern.
 
-**Einrichten des Acro-Modus:**
+### Einrichten des Acro-Modus:
 
 1.	Schalte die Fernsteuerung an und verbinde anschließend die Drohne mit dem Betaflight-Konfigurator
 

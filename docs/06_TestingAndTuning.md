@@ -4,7 +4,7 @@
 Nachdem wir alles richtig eingestellt haben, kommen wir jetzt zum Funktionstest.
 
 
-**Grundlegende Steuerung:**
+## Grundlegende Steuerung:
 
 ![Image](/rsc/01_img/06_TestingAndTuning/BasicControl_OnlyRemote.png)
 ![Image](/rsc/01_img/06_TestingAndTuning/DroneDirections.png)
@@ -16,14 +16,15 @@ Um die Drohne zu starten, müssen wir erst ein paar Bedingungen erfüllen:
 
 2.	Die Drohne muss waagrecht auf einer Fläche stehen.  
 
-Gut, nachdem du die Bedingungen erfüllt hast kannst du jetzt die Drohne starten. Als erstes müssen wir den linken Joystick ganz nach unten drücken und danach musst du den **Arm-Button** drücken. Nun sollten sich schon die Propeller drehen und die Drohne ist bereit zu fliegen. 
-Um die Motoren wieder auszuschalten, musst du wieder den **Arm-Button** drücken.
+Nachdem du die Voraussetzungen erfüllt hast kannst du die Drohne starten. Als erstes müssen wir den linken Joystick ganz nach unten drücken und danach musst du den **Arm-Button** drücken. Nun sollten sich schon die Propeller drehen und die Drohne ist bereit zu fliegen. 
+Um die Motoren wieder auszuschalten, musst du wieder den **Arm-Button** drücken. Der Prozess des **Armens** wird [hier](/docs/09_Safety.md#sicheres-fliegen) genauer behandelt.
 
 
 # Tuning
 ![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
-Nachdem du erfolgreich alle Komponenten deiner Drohne getestet hast, folgt ein essenzieller Schritt: das Tuning der Drohne. Das erste Ziel wird es sein, dass die Drohne bei zentriertem Schubregler ihre Höhe hält. Des Weiteren soll etwaiges Driften der Drohne während des Fluges ausgeglichen werden, um somit einen stabilen und kontrollierten Flug zu gewährleisten.
+Nachdem du erfolgreich alle Komponenten deiner Drohne getestet hast, folgt ein essenzieller Schritt: das Tuning der Drohne.  
+Das erste Ziel wird es sein, dass die Drohne bei zentriertem Schubregler ihre Höhe hält. Des Weiteren soll etwaiges Driften der Drohne während des Fluges ausgeglichen werden, um somit einen stabilen und kontrollierten Flug zu gewährleisten.
 
 >Um das Phänomen des Driftens zu verstehen, ist es notwendig, die Rolle des Beschleunigungssensors innerhalb der Drohnensteuerung zu verdeutlichen. Dieser ist ein Sensor, der dazu dient, Beschleunigungen auf allen drei Achsen (x, y, z) zu messen. Er erfasst die Geschwindigkeitsänderung der Drohne sowie die Anwesenheit der Erdanziehungskraft und ermöglicht es dadurch der Drohne, ihre Lage in Bezug auf die Erdoberfläche zu bestimmen.
 
@@ -40,7 +41,8 @@ Bevor du mit dem Trimming des Beschleunigungssensors beginnst, musst du diesen u
 
 >Das Gyroskop ist ein weiterer wichtiger Sensor in deiner Drohne. Es misst die Winkelgeschwindigkeit, also wie schnell sich die Drohne um ihre eigene Achse dreht. Damit sorgt das Gyroskop für Stabilität im Flug und hilft, die Drohne bei Wind oder bei Steuerbefehlen in der gewünschten Lage zu halten. 
 
-**Hier sind die Schritte, die du befolgen musst:**
+### Hier sind die Schritte, die du befolgen musst:
+
 1.	Schalte die Fernbedienung ein.
 
 2.	Schiebe die Batterie in den Einschub an der Drohne und verbinde anschließend die Batterie mit der Drohne. Stelle die Drohne auf eine waagrechte, glatte Fläche.
@@ -66,9 +68,9 @@ Sollte die Drohne sehr unruhig fliegen bietet es sich an die Schritte 1 bis 5 zu
 
 ## Trimmen des Schubreglers
 
->Damit die Drohne ruhig schweben kann muss sie eine gewisse Menge an Schub erzeugen, der ihr Eigengewicht ausgleicht. Dieser Schub soll erzeugt werden, wenn der Schubregler an der Fernsteuerung sich in der Mittelposition befindet. Um dies zu erreichen, wird durch Trimmen der an die Drohne übertragene Wert für den Schubregler verschoben, während die physische Position des Sticks gleichbleibt.
+>Damit die Drohne ruhig schweben kann muss sie eine gewisse Menge an Schub erzeugen, der ihr Eigengewicht ausgleicht. Dieser Schub soll erzeugt werden, wenn der Schubregler an der Fernsteuerung sich in der Mittelposition befindet. Um dies zu erreichen, wird durch Trimmen der an die Drohne übertragene Wert für den Schubregler verschoben, während die physische Position des Sticks gleich bleibt.
 
-**Vorbereitung vor dem Trimmen:**
+### Vorbereitung vor dem Trimmen:
 
 Zuerst musst du sicherstellen, dass nicht aus Versehen Trimm eingestellt wurde während den vorhergegangenen Schritten. Vergleiche dazu das Display der Fernsteuerung mit der Abbildung und korrigiere mit dem entsprechenden Trimm-Reglern, bis alle Balken symmetrisch sind.
 
@@ -77,7 +79,8 @@ Kontrolliere zusätzlich, dass der Akku mindestens halb voll ist.
 
 ![Image](/rsc/01_img/06_TestingAndTuning/RemoteStartTrim.png)
 
-**Das eigentliche Trimmen:**
+### Das eigentliche Trimmen:
+
 1.	Schalte die Fernsteuerung an und verbinde die Drohne wie bereits vorhergehend beschrieben mit dem Akku. Stelle die Drohne anschließend in die Raummitte.
 
 2.	Arme die Drohne und führe den Schubregler in die Mitte, bis er die neutrale Position erreicht.
@@ -92,13 +95,14 @@ Den Regler zum Trimmen findest du auf der Fernsteuerung, wie auf dem Bild ersich
 
 ## Trimmen des Beschleunigungssensors
 
-**Stickbefehle für das Trimmen:**
+### Stickbefehle für das Trimmen:
 
 ![Image](/rsc/01_img/06_TestingAndTuning/StickAccellTrim.png)
 
 >Turbulenzen bezeichnen Luftunruhen, die durch die Nähe von Gegenständen oder Wänden erzeugt werden. Diese können die Flugfähigkeit und -stabilität deiner Drohne erheblich beeinflussen, da sie die durch die Propeller produzierten Luftströme stören. Daher kann das Schweben in der Nähe von Wänden oder Gegenständen deine Einschätzung zur Schwebestabilität verfälschen. Stelle beim Trimmen sicher, dass deine Drohne möglichst weit von Gegenständen entfernt in der Mitte des Raums schwebt.
 
-**Hier sind die Schritte, die du befolgen musst:**
+### Hier sind die Schritte, die du befolgen musst:
+
 1.	Nachdem du deine Drohne sicher in die Mitte des Raums gebracht hast, lass sie schweben und beobachte, in welche Richtung sie driftet. Während des Prozesses solltest du darauf achten, den rechten Stick so wenig wie möglich zu benutzen. Sollte die Drohne nach links driften, wird dies durch ein Trimmen nach rechts ausgeglichen.
 
 2.	Sobald du die Richtung des Driftens ermittelt hast, lande die Drohne und deaktiviere die Motoren ("Disarm").
@@ -115,7 +119,7 @@ Das korrekte Trimmen des Beschleunigungssensors ist eine wichtige Fähigkeit, di
 
 Herzlichen Glückwunsch, deine Drohne ist nun voll flugfähig!
 
-Um deine Flugkünste zu trainieren kannst du dir noch selbst etwaige Szenarien überlegen. Beispielsweise ein Slalomkurs, durch den du fliegen musst, ohne die Pylonen zu berühren. Als Pylonen lassen sich dabei wunderbar Stühle missbrauchen, sowohl oberhalb der Sitzflächen die Stuhllehnen als auch die Stuhlbeine unterhalb. Deiner Fantasie sind keine Grenzen gesetzt. Viel Spaß!
+Um deine Flugkünste zu trainieren kannst du dir noch selbst etwaige Szenarien überlegen. Beispielsweise ein Slalom-Kurs, durch den du fliegen musst, ohne die Pylonen zu berühren. Als Pylonen lassen sich dabei wunderbar Stühle missbrauchen, sowohl oberhalb der Sitzflächen die Stuhllehnen als auch die Stuhlbeine unterhalb. Deiner Fantasie sind keine Grenzen gesetzt. Viel Spaß!
 
 
 ## [Klicke hier, um zurück zur Übersicht der Kapitel zu kommen!](/README.md#kapitel)
