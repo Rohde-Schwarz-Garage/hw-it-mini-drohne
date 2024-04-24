@@ -1,4 +1,4 @@
-# BAUEN EINER KLEINEN DROHNE
+# BAUEN EINER KLEINEN DROHNE :helicopter:
 <!--- Trennbalken bei Überschriften Level 1 (#) + kann kopiert werden --->
 ![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
