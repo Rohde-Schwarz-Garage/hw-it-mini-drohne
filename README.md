@@ -3,7 +3,8 @@
 ![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
 <!--- Hier kommt ein schönes Bild + ggf. mehr im Text --->
-![image](/rsc/01_img/LandingPage.jpg)
+![image](/rsc/01_img/LandingPageFlying.jpg)
+<!-- ![image](/rsc/01_img/LandingPage.jpg) -->
 
 
 
