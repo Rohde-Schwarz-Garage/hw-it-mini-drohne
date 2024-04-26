@@ -29,9 +29,9 @@ Wenn du die richtigen Werte für Stromstärke (4) und Spannung (6) eingestellt h
 
 Den/die Akkus kannst du jetzt einfach anstecken. Im Feld (7) sollte dann auch dessen aktuelle Spannung angezeigt werden. Ein roter blinkender Punkt auf der linken Seite signalisiert, dass er geladen wird.
 
-Grundsätzlich ist das Ladegerät auch hotplugging-fähig, sprich du kannst jederzeit einen Akku an- oder abstecken. Es ist dennoch ratsam einen Akku nur dann an- oder abzustecken, wenn du dir auch sicher bist, dass du das möchtest.
+Grundsätzlich ist das Ladegerät auch Hot-Plug-fähig, sprich du kannst jederzeit einen Akku an- oder abstecken. Es ist dennoch ratsam einen Akku nur dann an- oder abzustecken, wenn du dir auch sicher bist, dass du das möchtest.
 
-Die Spannung (5) ist lediglich die Eingangs-Spannung des Netzteils. Diese kann auch einen anderen Wert haben als auf dem Bild, lass dich davon nicht verwirren.
+Die Spannung (5) ist lediglich die Eingangsspannung des Netzteils. Diese kann auch einen anderen Wert haben als auf dem Bild, lass dich davon nicht verwirren.
 
 ![Image](/rsc/01_img/02_FrameAssembly/Charger.png)
 ![Image](/rsc/01_img/02_FrameAssembly/ChargerScreen.png)

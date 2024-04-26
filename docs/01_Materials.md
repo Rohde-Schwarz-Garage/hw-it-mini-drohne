@@ -41,7 +41,7 @@ In diesem Abschnitt findest du alles, was du benötigst, um dieser Anleitung fol
 
 | Werkzeug                                                  | Nr. |
 |-----------------------------------------------------------|-----|
-| Werkzeugwagen (Schraubenzieher, Pinzetten, Zangen…)       | 1   |
+| Werkzeugwagen in der Garage (Schraubenzieher, Pinzetten, Zangen…)       | 1   |
 | Ladegerät mit Netzteil                                    | 2   |
 | Fernbedienung mit eingelegten 18650 Li-Ion-Batterien      | 3   |
 | Kabel USB-A auf Micro-USB                                 | 4   |

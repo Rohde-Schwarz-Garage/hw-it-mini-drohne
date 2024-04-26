@@ -75,7 +75,7 @@ Sollte die Drohne sehr unruhig fliegen bietet es sich an die Schritte 1 bis 5 zu
 Zuerst musst du sicherstellen, dass nicht aus Versehen Trimm eingestellt wurde während den vorhergegangenen Schritten. Vergleiche dazu das Display der Fernsteuerung mit der Abbildung und korrigiere mit dem entsprechenden Trimm-Reglern, bis alle Balken symmetrisch sind.
 
 Kontrolliere zusätzlich, dass der Akku mindestens halb voll ist.
->Ist der Akku weniger als halb voll, so ist die Leistungsabgabe etwas vermindert. Folglich ist auch etwas mehr Schub nötig, um die Drohne in der Luft zu halten. Für ein möglichst unverfälschtes Trim-Ergebnis sollte also der Akku mindestens halb voll sein.
+>Ist der Akku weniger als halb voll, so ist die Leistungsabgabe etwas vermindert. Folglich ist auch etwas mehr Schub nötig, um die Drohne in der Luft zu halten. Für ein möglichst unverfälschtes Trimm-Ergebnis sollte also der Akku mindestens halb voll sein.
 
 ![Image](/rsc/01_img/06_TestingAndTuning/RemoteStartTrim.png)
 

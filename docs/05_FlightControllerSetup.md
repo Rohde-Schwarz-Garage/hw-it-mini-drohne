@@ -15,11 +15,11 @@ Damit die Drohne fliegen kann muss nicht nur die Hardware korrekt zusammengebaut
 
 Wir starten damit die Firmware auf den Controller zu flashen.
 
-> Firmware kannst du dir im Grunde vorstellen wie das Betriebssystem auf deinem PC/Laptop zu Hause. Erst dadurch kannst du mit der Hardware interagieren und sie das machen lassen, was du möchtest. Erst dadurch kannst du Einstellungen vornehmen, Programme ausführen, Internetseiten öffnen usw. Auf dem Flight Control-ler läuft nur eben kein Windows, Android oder iOS, sondern ein ganz spezielles für diesen Zweck entwickeltes Betriebssystem namens _Betaflight_. Dieses Betriebssystem müssen wir nun zu anfangs installieren, was man allgemein auch „flashen“ nennt.
+> Firmware kannst du dir im Grunde vorstellen wie das Betriebssystem auf deinem PC/Laptop zu Hause. Erst dadurch kannst du mit der Hardware interagieren und sie das machen lassen, was du möchtest. Erst dadurch kannst du Einstellungen vornehmen, Programme ausführen, Internetseiten öffnen usw. Auf dem Flight Controller läuft nur eben kein Windows, Android oder iOS, sondern ein ganz spezielles für diesen Zweck entwickeltes Betriebssystem namens _Betaflight_. Dieses Betriebssystem müssen wir nun zu anfangs installieren, was man allgemein auch „flashen“ nennt.
 
-**Wichtig:** Immer wenn du den Flight Controller länger als ein paar Sekunden mit dem PC verbindest, richte einen Lüfter auf ihn. Gerade während des Flashens kann er sehr heiß werden. Ohne ein wenig Kühlung riskiert man im besten Fall ein Abstürzen des Controllers, was insbesondere wenn man Einstellungen noch nicht gesi-chert hat, sehr ärgerlich sein kann. Im schlimmsten Fall kann es bei manchen Flight Controllern sogar zu De-fekten führen.
+**Wichtig:** Immer wenn du den Flight Controller länger als ein paar Sekunden mit dem PC verbindest, richte einen Lüfter auf ihn. Gerade während des Flashens kann er sehr heiß werden. Ohne ein wenig Kühlung riskiert man im besten Fall ein Abstürzen des Controllers, was insbesondere wenn man Einstellungen noch nicht gesichert hat, sehr ärgerlich sein kann. Im schlimmsten Fall kann es bei manchen Flight Controllern sogar zu Defekten führen.
 
-Um Betaflight installieren zu können, müssen wir den Controller zuerst in einen speziellen Modus versetzen, der diese Art von Zugriff ermöglicht. Nimm einen kleinen Flachkopfschraubenzieher zur Hand und halte ihn wie auf dem Bild auf die markierten Kontakte (1) auf dem Flight Controller. Während du immer noch die zwei Kon-takte mit dem Schraubenzieher verbunden hältst, verbinde den Controller mit dem USB-Kabel an den PC.  Möglicherweise ist es einfacher das mit einer zweiten Person gemeinsam zu machen, sodass eine nur die Kontakte mit dem Schraubenzieher verbindet und die andere nur das Kabel ansteckt. Hast du alles richtig ge-macht, dann blinkt nur die rote LED (2) auf der gegenüberliegenden Seite des USB-Anschlusses. Falls etwas schiefgelaufen ist, dann blinken sowohl die etwas kleinere grüne LED als auch die hellere rote LED abwech-selnd. In diesem Fall wiederholst du den Prozess einfach (Kabel nochmal abstecken und dann wieder anste-cken). Achte vor allem darauf, dass der Schraubenzieher tatsächlich die zwei Kontaktstellen verbindet.
+Um Betaflight installieren zu können, müssen wir den Controller zuerst in einen speziellen Modus versetzen, der diese Art von Zugriff ermöglicht. Nimm einen kleinen Flachkopfschraubenzieher zur Hand und halte ihn wie auf dem Bild auf die markierten Kontakte (1) auf dem Flight Controller. Während du immer noch die zwei Kontakte mit dem Schraubenzieher verbunden hältst, verbinde den Controller mit dem USB-Kabel an den PC.  Möglicherweise ist es einfacher das mit einer zweiten Person gemeinsam zu machen, sodass eine nur die Kontakte mit dem Schraubenzieher verbindet und die andere nur das Kabel ansteckt. Hast du alles richtig gemacht, dann blinkt nur die rote LED (2) auf der gegenüberliegenden Seite des USB-Anschlusses. Falls etwas schiefgelaufen ist, dann blinken sowohl die etwas kleinere grüne LED als auch die hellere rote LED abwechselnd. In diesem Fall wiederholst du den Prozess einfach (Kabel nochmal abstecken und dann wieder anstecken). Achte vor allem darauf, dass der Schraubenzieher tatsächlich die zwei Kontaktstellen verbindet.
 
 ![Image](/rsc/01_img/05_FlightControllerSetup/FlightControllerBootPins.png)
 
@@ -37,7 +37,7 @@ Wähle nun links den Reiter _Firmware Flasher_ (1). Im Einstellungsfeld (2) wäh
 
 ![Image](/rsc/01_img/05_FlightControllerSetup/BetaflightFlash.png)
 
-Jetzt kannst du die Firmware online laden (3). Sobald der Vorgang abgeschlossen ist, wird der Button _Firmware Flashen_ (4) auch gelb werden und du kannst auch ihn drücken. Dann beginnt das eigentliche Flashen. Es dau-ert ein paar Sekunden und wird quittiert mit einem grünen Balken und der Meldung Programmierung erfolgreich (5).
+Jetzt kannst du die Firmware online laden (3). Sobald der Vorgang abgeschlossen ist, wird der Button _Firmware Flashen_ (4) auch gelb werden und du kannst auch ihn drücken. Dann beginnt das eigentliche Flashen. Es dauert ein paar Sekunden und wird quittiert mit einem grünen Balken und der Meldung Programmierung erfolgreich (5).
 
 ![Image](/rsc/01_img/05_FlightControllerSetup/BetaflightFlashSuccessful.png)
 
@@ -49,11 +49,11 @@ Du solltest jetzt in der Benutzeroberfläche sein, in der du so ziemlich alles e
 
 ![Image](/rsc/01_img/05_FlightControllerSetup/BetaflightStartConnected.png)
 
->Während wir bei normalen PCs und Laptops meistens über Bildschirme interagieren, an die direkt vom Rechner ein Videosignal gesendet wird, ist das beim Flight Controller etwas anders. Er ist nur per USB an den PC ange-bunden und wir können aber die speziell dafür entwickelte Software _Betaflight Configurator_ daran Einstellungen in einer grafischen Benutzeroberfläche vornehmen. Im Grunde fungiert der PC nur als Übermittler.
+>Während wir bei normalen PCs und Laptops meistens über Bildschirme interagieren, an die direkt vom Rechner ein Videosignal gesendet wird, ist das beim Flight Controller etwas anders. Er ist nur per USB an den PC angebunden und wir können aber die speziell dafür entwickelte Software _Betaflight Configurator_ daran Einstellungen in einer grafischen Benutzeroberfläche vornehmen. Im Grunde fungiert der PC nur als Übermittler.
 
 Im aktuellen Zustand lässt sich mit der Drohne aber noch nicht viel anfangen. Sie hat weder eine Verbindung zur Fernbedienung, noch weiß sie, wie sie auf verschiedene Befehle der Fernbedienung reagieren soll. Auch weiß die Drohne noch nicht, was sie überhaupt für Komponenten besitzt und wie sie diese intern ansteuern muss.
 
-Für die allermeisten dieser Einstellung gibt es schon ein gutes Preset (bereits davor abgespeicherte Konfigura-tion), das die meiste Arbeit für dich erledigt. Du findest es im Reiter _Presets_ (8). Die Kachel _ExpressLRS 150Hz_ (9) sollte ganz oben links zu sehen sein. Falls sie nicht zu sehen ist, kannst du einfach im Suchfeld (10) danach suchen, indem du dort _ExpressLRS_ eingibst.
+Für die allermeisten dieser Einstellung gibt es schon ein gutes Preset (bereits davor abgespeicherte Konfiguration), das die meiste Arbeit für dich erledigt. Du findest es im Reiter _Presets_ (8). Die Kachel _ExpressLRS 150Hz_ (9) sollte ganz oben links zu sehen sein. Falls sie nicht zu sehen ist, kannst du einfach im Suchfeld (10) danach suchen, indem du dort _ExpressLRS_ eingibst.
 
 ![Image](/rsc/01_img/05_FlightControllerSetup/BetaflightPresets.png)
 
@@ -112,7 +112,7 @@ Schließe den Browser und öffne den _Betaflight Configurator_. Verbinde dich mi
 
 **Wichtig:** Achte darauf keine Haare/Schals/Finger/o.ä. in die Propeller zu halten, während sie sich drehen oder generell während der Akku der Drohne angesteckt ist.
 
-Um die Motoren einzeln drehen zu lassen musst du den Schalter (13) aktivieren. Achtung: Ab jetzt sind die Motoren aktiviert! Entgegen dem Hinweis in dem Kasten darüber entfernen wir nicht die Propeller. Sie sind erstens sehr klein, daher ist das Verletzungsrisiko generell nicht ganz so groß, wie bei größeren Drohnen. Zwei-tens sind auch die Achsen der Motoren, auf denen die Propeller aufgesteckt sind, sehr klein, weshalb sie nicht so geeignet sind, um die Propeller oft auf- und abzustecken.
+Um die Motoren einzeln drehen zu lassen musst du den Schalter (13) aktivieren. Achtung: Ab jetzt sind die Motoren aktiviert! Entgegen dem Hinweis in dem Kasten darüber entfernen wir nicht die Propeller. Sie sind erstens sehr klein, daher ist das Verletzungsrisiko generell nicht ganz so groß, wie bei größeren Drohnen. Zweitens sind auch die Achsen der Motoren, auf denen die Propeller aufgesteckt sind, sehr klein, weshalb sie nicht so geeignet sind, um die Propeller oft auf- und abzustecken.
 
 Bewege nun einzeln die Regler (14) **vorsichtig** nach oben, bis sich der jeweilige Motor **langsam (nicht mehr!)** dreht und befolge die Schritte mit dem Papierstück von oben. Markiere in der Grafik (12) z.B. mit einem Kreuz, welche(n) der Motoren du umkehren musst, damit sie in die richtige Richtung drehen.
 

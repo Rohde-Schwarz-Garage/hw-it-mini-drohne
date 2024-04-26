@@ -41,7 +41,7 @@ Die Fernsteuerung und das Ladegerät, die du für dieses Projekt benötigst, sin
 
 | Werkzeug                                                  | Nr. | Link | Alternativ-Link |
 |-----------------------------------------------------------|-----|------|-----------------|
-| Werkzeugwagen (Schraubenzieher, Pinzetten, Zangen…)       | 1   |Du solltest das benötigte Werkzeug bei dir zu Hause finden. ALternativ findest du in der Garage alles vor, was du brauchst.| - |
+| Werkzeugwagen in der Garage (Schraubenzieher, Pinzetten, Zangen…)       | 1   |Du solltest das benötigte Werkzeug bei dir zu Hause finden. ALternativ findest du in der Garage alles vor, was du brauchst.| - |
 | Ladegerät                                                 | 2   |[Vifly WhoopStor 3](https://www.rotorama.de/product/vifly-whoopstor)| [Vifly WhoopStor 3](https://shop.rc-hangar15.de/VIFLY-WhoopStor-V3-1S-Lade-Entladegeraet-BT20-PH20-Schwarz)|
 | USB-C Netzteil                                            | 2   |[VOLTCRAFT CNPS-45 USB-Ladegerät 45 W](https://www.conrad.de/de/p/voltcraft-cnps-45-usb-ladegeraet-45-w-steckdose-ausgangsstrom-max-3-a-anzahl-ausgaenge-1-x-usb-c-buchse-usb-power-del-1601915.html)|[goobay USB-C PD Dual-Schnellladegerät 45 Watt](https://www.alternate.de/goobay/USB-C-PD-Dual-Schnellladeger%C3%A4t-45-Watt/html/product/100032651)|
 | Fernbedienung                                             | 3   |[Radiomaster Pocket ELRS](https://www.rotorama.de/product/radiomaster-pocket-elrs)|[Radiomaster Pocket ELRS](https://shop.rc-hangar15.de/Radiomaster-POCKET-ELRS-Fernsteuerung-EU-LBT-Anthrazit-MODE-1)|

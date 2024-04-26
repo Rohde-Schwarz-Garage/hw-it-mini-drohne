@@ -48,7 +48,7 @@ Der gesamte Flight Controller mit den Gummifüßen soll nun auf den Rahmen geset
 
 ![Image](/rsc/01_img/04_DroneAssembly/CableRouting.png)
 
-Obendrauf kommt dann nur noch die schwarze Abdeckplatte mit R/S-Logo, achte auch bei ihr darauf, dass die Schrift in Flugrichtung „vorne“ zeigt (also in Richtung blaue Markierung). Befestigt wird alles mit den 4 noch verbleibenden Schrauben. Wie bei den Motor-Schrauben soll wieder nur so fest angezogen werden, dass die Schraube am Anschlag ist, damit sie nicht abreißt. 
+Obendrauf kommt dann nur noch die schwarze Abdeckplatte mit R/S-Logo, achte auch bei ihr darauf, dass die Schrift in Flugrichtung „vorne“ zeigt (also in Richtung blaue Markierung). Befestigt wird alles mit den 4 noch verbleibenden Schrauben. Wie bei den Motorschrauben soll wieder nur so fest angezogen werden, dass die Schraube am Anschlag ist, damit sie nicht abreißt. 
 
 ![Image](/rsc/01_img/04_DroneAssembly/DeckplateScrews.png)
 
