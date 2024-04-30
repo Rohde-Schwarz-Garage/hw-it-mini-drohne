@@ -26,7 +26,7 @@ In diesem Projekt wirst du eine kleine Drohne bauen. Dazu beschäftigst du dich 
 <!--- Trennbalken bei Überschriften Level 1 (#) + kann kopiert werden --->
 ![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
-Um zu einer funktionierenden Drohne zu gelangen folge einfach den Kapiteln. Am Ende jedes Kapitels kommst wieder auf diese Seite.
+Um zu einer funktionierenden Drohne zu gelangen folge einfach den Kapiteln. Am Ende jedes Kapitels kommst du wieder auf diese Seite.
 
 <!--- Weitere Indexe sind immer möglich --->
 1. [Vorbereitung Material und Software](/docs/01_Materials.md)
