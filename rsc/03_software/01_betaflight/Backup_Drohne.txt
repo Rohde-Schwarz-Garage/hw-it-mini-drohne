@@ -51,7 +51,7 @@ set dyn_notch_max_hz = 700
 set gyro_lpf1_dyn_min_hz = 100
 set gyro_lpf1_dyn_max_hz = 200
 set acc_lpf_hz = 10
-set acc_calibration = 40,-2,-16,1
+set acc_calibration = 9,-5,-20,1
 set min_check = 1200
 set rc_smoothing_auto_factor = 250
 set rc_smoothing_auto_factor_throttle = 100
@@ -129,7 +129,8 @@ set yaw_rc_rate = 40
 set roll_srate = 70
 set pitch_srate = 70
 set yaw_srate = 70
-set throttle_limit_type = SCALE
+set throttle_limit_type = CLIP
+set throttle_limit_percent = 85
 
 rateprofile 1
 
