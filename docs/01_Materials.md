@@ -23,6 +23,15 @@ In diesem Abschnitt findest du alles, was du benötigst, um dieser Anleitung fol
 | R/S Deckplatte                        | 1      | 11   |
 | Akku mit A30 Stecker                  | 2      | 12   |
 
+### Hinweis Akku
+
+Der Akku befindet sich in einem sogenannten Safe Bag (im Bild zu sehen) und wird von Beuteln mit feuerhemmendem Material abgedeckt. Den Safe Bag findest du im weißen Schrank unter dem linken Fenster der Garage.
+
+Nach Verwendung des Akkus lege ihn bitte wieder in den Safe Bag und verschließe den diesen ordnungsgemäß. Mehr über den sicheren Umgang mit Akkus findest du [hier](/docs/09_Safety.md#sicherer-umgang-mit-lipo-akkus).
+
+
+![Image](/rsc/01_img/01_Materials/LiPoSafe.png)
+
 
 ## Verbrauchsmaterialien
 
