@@ -30,17 +30,17 @@ Beim Einstecken sollte ein Fenster mit drei verschiedenen Auswahlmöglichkeiten 
 
 ![Image](/rsc/01_img/03_RemoteSetup/RemoteUSB.png)
 
-Klicke [hier](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FRohde-Schwarz-Garage%2Fhw-it-mini-drohne%2Ftree%2Fmain%2Frsc%2F03_software%2F02_edgetx) und es wird automatisch der Ordner 02_edgetx heruntergeladen.  Entpacke den Ordner und markiere nun alle darin enthaltenen Ordner und kopiere diese (STRG+C oder Rechtsklick -> Kopiersymbol).
+Klicke [hier](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FRohde-Schwarz-Garage%2Fhw-it-mini-drohne%2Ftree%2Fmain%2Frsc%2F03_software%2F02_edgetx) und es wird automatisch der Ordner Models heruntergeladen.  Entpacke den Ordner und kopiere diesen (STRG+C oder Rechtsklick -> Kopiersymbol).
 
 Wähle nun links unten das USB-Laufwerk der Fernbedienung aus.
 
 ![Image](/rsc/01_img/03_RemoteSetup/RemoteDrive.png)
 
-Dort siehst du die gleichen Ordner wie auf dem Desktop. Füge die in kopierten Ordner nun ein (STRG+V oder Rechtsklick -> Einfüge Symbol). Sollte ein Fenster für das Ersetzen der Dateien auftauchen, wähle „Dateien im Ziel ersetzen“.
+Dort findest du einen gleich benannten Ordner (Models). Lösche den Ordner von der Fernbedienung und füge den heruntergeladenen Ordner ein (STRG+V oder Rechtsklick -> Einfüge Symbol). Sollte ein Fenster für das Ersetzen der Dateien auftauchen, wähle „Dateien im Ziel ersetzen“.
 
 ![Image](/rsc/01_img/03_RemoteSetup/RemoteReplace.png)
 
-Warte nun, bis der Vorgang abgeschlossen wurde.
+Warte nun, bis der Vorgang abgeschlossen wurde. Anschließend trennst du das USB-Kabel von der Fernsteuerung und startest diese neu. Durch den Neustart werden die geänderten Konfigurationen eingelesen.
 
 Glückwunsch, du hast die benötigte Konfiguration auf die Fernbedienung übertragen. Im weiteren Verlauf wirst du nun einige Zusatzeinstellungen vornehmen.
 
