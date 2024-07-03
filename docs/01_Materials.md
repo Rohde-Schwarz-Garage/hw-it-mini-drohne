@@ -52,7 +52,7 @@ Nach Verwendung des Akkus lege ihn bitte wieder in den Safe Bag und verschließe
 |-----------------------------------------------------------|-----|
 | Werkzeugwagen in der Garage (Schraubenzieher, Pinzetten, Zangen…)       | 1   |
 | Ladegerät mit Netzteil                                    | 2   |
-| Fernbedienung mit eingelegten 18650 Li-Ion-Batterien      | 3   |
+| Fernbedienung (EdgeTX v2.10) mit eingelegten 18650 Li-Ion-Batterien      | 3   |
 | Kabel USB-A auf Micro-USB                                 | 4   |
 | Lüfter                                                    | 5   |
 
