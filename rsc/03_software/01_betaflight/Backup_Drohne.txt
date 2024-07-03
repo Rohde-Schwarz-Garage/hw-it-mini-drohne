@@ -38,6 +38,9 @@ beeper -CAM_CONNECTION_CLOSE
 beacon RX_LOST
 beacon RX_SET
 
+# map
+map ATER1234
+
 # aux
 aux 0 0 0 1950 2050 0 0
 aux 1 1 9 1450 1550 0 0

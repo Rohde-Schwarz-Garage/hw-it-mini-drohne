@@ -1,4 +1,4 @@
-semver: 2.10.0
+semver: 2.10.1
 header: 
    name: "RS BETA"
    modelId: 
@@ -31,6 +31,7 @@ throttleReversed: 0
 enableCustomThrottleWarning: 0
 disableTelemetryWarning: 0
 showInstanceIds: 0
+checklistInteractive: 0
 customThrottleWarningPosition: 0
 beepANACenter: 0
 mixData: 
@@ -41,6 +42,7 @@ mixData:
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
+   speedPrec: 0
    offset: 0
    swtch: "NONE"
    flightModes: 000000000
@@ -56,6 +58,7 @@ mixData:
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
+   speedPrec: 0
    offset: 0
    swtch: "NONE"
    flightModes: 000000000
@@ -71,6 +74,7 @@ mixData:
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
+   speedPrec: 0
    offset: 0
    swtch: "NONE"
    flightModes: 000000000
@@ -86,6 +90,7 @@ mixData:
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
+   speedPrec: 0
    offset: 0
    swtch: "NONE"
    flightModes: 000000000
@@ -101,6 +106,7 @@ mixData:
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
+   speedPrec: 0
    offset: 0
    swtch: "NONE"
    flightModes: 000000000
@@ -116,6 +122,7 @@ mixData:
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
+   speedPrec: 0
    offset: 0
    swtch: "NONE"
    flightModes: 000000000
@@ -131,6 +138,7 @@ mixData:
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
+   speedPrec: 0
    offset: 0
    swtch: "NONE"
    flightModes: 000000000
@@ -146,6 +154,7 @@ mixData:
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
+   speedPrec: 0
    offset: 0
    swtch: "NONE"
    flightModes: 000000000
@@ -161,6 +170,7 @@ mixData:
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
+   speedPrec: 0
    offset: 0
    swtch: "NONE"
    flightModes: 000000000
@@ -176,6 +186,7 @@ mixData:
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
+   speedPrec: 0
    offset: 0
    swtch: "NONE"
    flightModes: 000000000
@@ -191,6 +202,7 @@ mixData:
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
+   speedPrec: 0
    offset: 0
    swtch: "NONE"
    flightModes: 000000000
@@ -460,17 +472,21 @@ customFn:
    0:
       swtch: "SA2"
       func: PLAY_TRACK
-      def: "armed,1x"
+      def: "armed,1,1x"
    1:
       swtch: "SA0"
       func: PLAY_TRACK
-      def: "disarm,1x"
+      def: "disarm,1,1x"
    3:
       swtch: "L2"
       func: PLAY_TRACK
-      def: "lowbat,2"
+      def: "lowbat,1,2"
 thrTraceSrc: Thr
-switchWarningState: AuDu
+switchWarning: 
+   SA:
+      pos: up
+   SD:
+      pos: up
 varioData: 
    source: none
    centerSilent: 1

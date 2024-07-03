@@ -1,4 +1,4 @@
-checksum: 24101
+checksum: 20251
 manuallyEdited: 0
 timezoneMinutes: 0
 ppmunit: 0
@@ -7,24 +7,24 @@ board: pocket
 calib: 
    LH:
       mid: 997
-      spanNeg: 842
-      spanPos: 845
+      spanNeg: 846
+      spanPos: 849
    LV:
-      mid: 1044
-      spanNeg: 761
-      spanPos: 779
+      mid: 1041
+      spanNeg: 762
+      spanPos: 785
    RV:
-      mid: 1022
-      spanNeg: 898
-      spanPos: 903
+      mid: 1023
+      spanNeg: 904
+      spanPos: 907
    RH:
       mid: 1006
-      spanNeg: 814
-      spanPos: 818
+      spanNeg: 818
+      spanPos: 819
    P1:
-      mid: 993
-      spanNeg: 499
-      spanPos: 499
+      mid: 999
+      spanNeg: 516
+      spanPos: 517
 currModel: 0
 contrast: 15
 vBatWarn: 65
@@ -53,7 +53,7 @@ trainer:
          srcChn: 3
          mode: REPL
          studWeight: 100
-view: 36
+view: 3
 fai: 0
 beepMode: mode_nokeys
 alarmsFlash: 0
@@ -76,17 +76,17 @@ hapticStrength: 2
 gpsFormat: 0
 audioMuteEnable: 0
 speakerPitch: 0
-speakerVolume: 12
+speakerVolume: 18
 vBatMin: 60
 vBatMax: 80
 backlightBright: 0
-globalTimer: 1139
+globalTimer: 2669
 bluetoothBaudrate: 0
 bluetoothMode: OFF
-countryCode: 0
+countryCode: 2
 pwrOnSpeed: 0
 pwrOffSpeed: 0
-noJitterFilter: 0
+noJitterFilter: 1
 imperial: 0
 disableRssiPoweroffAlarm: 0
 USBMode: 0
