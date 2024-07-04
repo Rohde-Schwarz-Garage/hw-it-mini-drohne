@@ -1,8 +1,8 @@
-checksum: 20251
+checksum: 23244
 manuallyEdited: 0
 timezoneMinutes: 0
 ppmunit: 0
-semver: 2.10.1
+semver: 2.10.2
 board: pocket
 calib: 
    LH:
@@ -53,7 +53,7 @@ trainer:
          srcChn: 3
          mode: REPL
          studWeight: 100
-view: 3
+view: 19
 fai: 0
 beepMode: mode_nokeys
 alarmsFlash: 0
@@ -80,7 +80,7 @@ speakerVolume: 18
 vBatMin: 60
 vBatMax: 80
 backlightBright: 0
-globalTimer: 2669
+globalTimer: 3352
 bluetoothBaudrate: 0
 bluetoothMode: OFF
 countryCode: 2

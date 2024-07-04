@@ -67,6 +67,7 @@ Nach Verwendung des Akkus lege ihn bitte wieder in den Safe Bag und verschließe
 | ESC-Configurator WebUI                    | [Klicke hier](https://esc-configurator.com/)  |
 | STM32 Virtual COM Port Driver             | [Klicke hier](https://www.st.com/en/development-tools/stsw-stm32102.html) |
 | Zadig USB Driver Installer                | [Klicke hier](https://zadig.akeo.ie/)                |
+| EdgeTX Buddy                              | [Klicke hier](https://buddy.edgetx.org/#/flash?version=v2.10.2)
 
 
 ## Installation Betaflight Konfigurator

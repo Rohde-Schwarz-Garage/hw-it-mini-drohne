@@ -1,6 +1,15 @@
 # Navigation und Einrichtung Fernbedienung
 ![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
+## Wichtig
+
+Die **vorhandene Fernsteuerung in der Garage ist bereits mit den Standard-Einstellungen aus diesem Kapitel konfiguriert**. Insbesondere die Bindungsphrase ist gemäß der Anleitung konfiguriert. **Somit musst du die Schritte aus dem Kapitel *Navigation und Einrichtung Fernsteuerung* nicht mehr ausführen.**  
+
+Sollte in späteren Schritten der Anleitung die Drohne keine Verbindung mit der Fernbedienung aufbauen können, so kannst du dieses Kapitel sicherheitshalber bearbeiten, um eine mögliche Fehlerquelle auszuschließen.
+
+Es empfiehlt sich dennoch das Kapitel aufmerksam zu lesen. Nimmst du die Drohne mit Nachhause und kaufst dir eine eigene Fernbedienung musst du den Schritten mit deiner neuen Fernbedienung folgen.
+
+
 ## Einlegen der Batterien und Aktivieren der selbstständigen Zentrierung
 
 Nach dem Entfernen der gummierten Griffschalen kannst du mit einem Torx 7 oder 2mm Innensechskantschlüssel die selbstständige Zentrierung des Schubreglers aktivieren. Drehe hierfür die markierte Schraube entgegen dem Uhrzeigersinn bis sich der dazugehörige Gimbal federgestützt in der Mittelposition hält.
@@ -17,6 +26,21 @@ In der Anleitung wirst du nicht alle Tasten brauchen, aber es ist nützlich, sic
 ![Image](/rsc/01_img/03_RemoteSetup/RemoteManual.png)
 
 
+# Aktualisieren Fernbedienung
+
+Da die Firmwareversion der Fernbedienung vom Herstellungsdatum abhängig ist, musst du zuerst die korrekte Firmware installieren.
+
+Dafür schaltest du die Fernbedienung aus, falls diese an ist, und verbindest den oberen USB-C Anschluss mit deinem PC. Anschließend öffnest du den [EdgeTX Buddy](https://buddy.edgetx.org/#/flash?version=v2.10.2) und wählst die im Bild markierten Einstellungen aus.
+
+![Image](/rsc/01_img/03_RemoteSetup/EdgeTXBuddyFirmwareVersion.png)
+
+Wähle nun *Flashen über USB* aus und klicke auf *Neues Gerät hinzufügen*. Dort findest du den Bootloader der Fernsteuerung mit dem Namen *STM32 BOOTLOADER* und wählst ihn aus.
+
+![Image](/rsc/01_img/03_RemoteSetup/RemoteBootloader.png)
+
+Klicke nun auf *Weiter* und dann auf *Beginne mit dem Flashen*. Dieser Prozess kann ein paar Minuten dauern. Trenne die Fernsteuerung unter keinen Umständen von deinem PC bis das Flashen fertiggestellt ist.
+
+
 # Einrichten Fernbedienung
 ![image](https://github.com/Rohde-Schwarz-Garage/.github/blob/main/ressources/graphics/2024_03_13_Trennbanner_GitHub_Grey_Transparent.png?raw=true)
 
@@ -30,19 +54,30 @@ Beim Einstecken sollte ein Fenster mit drei verschiedenen Auswahlmöglichkeiten 
 
 ![Image](/rsc/01_img/03_RemoteSetup/RemoteUSB.png)
 
-Klicke [hier](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FRohde-Schwarz-Garage%2Fhw-it-mini-drohne%2Ftree%2Fmain%2Frsc%2F03_software%2F02_edgetx%2FMODELS) und es wird automatisch der Ordner Models heruntergeladen.  Entpacke den Ordner und kopiere diesen (STRG+C oder Rechtsklick -> Kopiersymbol).
+Klicke [hier](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FRohde-Schwarz-Garage%2Fhw-it-mini-drohne%2Ftree%2Fmain%2Frsc%2F03_software%2F02_edgetx%2FMODELS) und es wird automatisch ein komprimierter Ordner mit den Konfigurationen heruntergeladen.  Entpacke den Ordner und kopiere die enthaltenen Dateien (STRG+C oder Rechtsklick -> Kopiersymbol).
 
 Wähle nun links unten das USB-Laufwerk der Fernbedienung aus.
 
 ![Image](/rsc/01_img/03_RemoteSetup/RemoteDrive.png)
 
-Dort findest du einen gleich benannten Ordner (Models). Lösche den Ordner von der Fernbedienung und füge den heruntergeladenen Ordner ein (STRG+V oder Rechtsklick -> Einfüge Symbol). Sollte ein Fenster für das Ersetzen der Dateien auftauchen, wähle „Dateien im Ziel ersetzen“.
+Lösche alle enthaltenen Dateien und Ordner. Im Anschluss fügst du die heruntergeladenen Ordner ein (STRG+V oder Rechtsklick -> Einfüge Symbol).
 
 ![Image](/rsc/01_img/03_RemoteSetup/RemoteReplace.png)
 
 Warte nun, bis der Vorgang abgeschlossen wurde. Anschließend trennst du das USB-Kabel von der Fernsteuerung und startest diese neu. Durch den Neustart werden die geänderten Konfigurationen eingelesen.
 
 Glückwunsch, du hast die benötigte Konfiguration auf die Fernbedienung übertragen. Im weiteren Verlauf wirst du nun einige Zusatzeinstellungen vornehmen.
+
+
+## Kalibrieren Sticks
+
+> In EdgeTX ist es wichtig, die Gimbals zu kalibrieren, um eine präzise Steuerung deiner Drohne sicherzustellen. Die Kalibrierung stellt sicher, dass die Mittelpositionen der Sticks korrekt erkannt werden und die Bewegungsbereiche der Gimbals optimal eingestellt sind. Wenn du beispielsweise neue Gimbals in deinem Sender verwendest oder merkst, dass die Mittelpositionen nicht genau sind, solltest du die Kalibrierung durchführen. Achte darauf, die Gimbals bei der Kalibrierung in einer geraden Linie von links nach rechts und von oben nach unten zu bewegen, ohne übermäßigen Druck an den Endpunkten auszuüben. Dieser Schritt ist besonders wichtig, um eine stabile und präzise Steuerung deiner Drohne zu gewährleisten.
+
+Schalte hierfür die Fernsteuerung ein und drücke den **SYS**-Knopf. Navigiere mittels **PAGE>** bis zur Seite *HARDWARE* und bestätige die Auswahl von *Calibration* durch drücken des Drehrads.
+
+Achte nun darauf die Sticks nicht zu berühren und drücke aud das Drehrad um den Prozess zu starten. Drücke nochmals das Drehrad um die Mittelpunkte der Achsen festzulegen.
+
+Im Anschluss bewegst du die Sticks mehrmals in alle Richtungen bis zum Anschlag, ohne viel Kraft aufzuwenden. Wenn du damit fertig bist klicke auf das Drehrad um die Kalibrierung zu beenden. Durch das mehrmalige Drücken des **RTN**-Knopfes gelangst du wieder auf die Startseite.
 
 
 # Konfiguration Übertragungsmodul
