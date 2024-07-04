@@ -54,7 +54,7 @@ Beim Einstecken sollte ein Fenster mit drei verschiedenen Auswahlmöglichkeiten 
 
 ![Image](/rsc/01_img/03_RemoteSetup/RemoteUSB.png)
 
-Klicke [hier](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FRohde-Schwarz-Garage%2Fhw-it-mini-drohne%2Ftree%2Fmain%2Frsc%2F03_software%2F02_edgetx%2FMODELS) und es wird automatisch ein komprimierter Ordner mit den Konfigurationen heruntergeladen.  Entpacke den Ordner und kopiere die enthaltenen Dateien (STRG+C oder Rechtsklick -> Kopiersymbol).
+Klicke [hier](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FRohde-Schwarz-Garage%2Fhw-it-mini-drohne%2Ftree%2Fmain%2Frsc%2F03_software%2F02_edgetx) und es wird automatisch ein komprimierter Ordner mit den Konfigurationen heruntergeladen.  Entpacke den Ordner und kopiere die enthaltenen Dateien (STRG+C oder Rechtsklick -> Kopiersymbol).
 
 Wähle nun links unten das USB-Laufwerk der Fernbedienung aus.
 
