@@ -12,7 +12,8 @@ Es empfiehlt sich dennoch das Kapitel aufmerksam zu lesen. Nimmst du die Drohne 
 
 ## Einlegen der Batterien und Aktivieren der selbstständigen Zentrierung
 
-Nach dem Entfernen der gummierten Griffschalen kannst du mit einem Torx 7 oder 2mm Innensechskantschlüssel die selbstständige Zentrierung des Schubreglers aktivieren. Drehe hierfür die markierte Schraube entgegen dem Uhrzeigersinn bis sich der dazugehörige Gimbal federgestützt in der Mittelposition hält.
+Nach dem Entfernen der gummierten Griffschalen kannst du mit einem Torx 7 oder 2mm Innensechskantschlüssel die selbstständige Zentrierung des Schubreglers aktivieren. Drehe hierfür die mit `1` markierte Schraube entgegen dem Uhrzeigersinn, bis sich der dazugehörige Gimbal federgestützt in der Mittelposition hält.  
+Falls das Gimbal noch nicht selbst die Mittelposition hält, drehe die mit `2` markierte Schraube im Uhrzeigersinn, bis sich der dazugehörige Gimbal federgestützt in der Mittelposition hält.
 
 Nun kannst du die zwei 18650 Li-Ion Batterien einlegen. Achte dabei auf die **korrekte Polung**, wie sie in dem Bild markiert ist.
 
@@ -50,7 +51,7 @@ Schalte den PC und die Fernbedienung an.
 
 Als Nächstes nimmst du das USB-C Kabel und verbindest den PC und die Fernbedienung miteinander. Achte darauf, dass du das Kabel oben bei der Fernbedienung einsteckst.
 
-Beim Einstecken sollte ein Fenster mit drei verschiedenen Auswahlmöglichkeiten erscheinen. Wähle mit dem Drehrad rechts die Option „USB-Storage“ und drücke das Drehrad. Wenn du versehentlich etwas anderes ausgewählt hast, steck das Kabel einfach wieder ein und aus und wiederhole den Vorgang
+Beim Einstecken sollte ein Fenster mit drei verschiedenen Auswahlmöglichkeiten erscheinen. Wähle mit dem Drehrad rechts die Option „USB-Storage“ und drücke das Drehrad. Wenn du versehentlich etwas anderes ausgewählt hast, steck das Kabel einfach wieder ein und aus und wiederhole den Vorgang.
 
 ![Image](/rsc/01_img/03_RemoteSetup/RemoteUSB.png)
 
@@ -60,11 +61,12 @@ Wähle nun links unten das USB-Laufwerk der Fernbedienung aus.
 
 ![Image](/rsc/01_img/03_RemoteSetup/RemoteDrive.png)
 
-Lösche alle enthaltenen Dateien und Ordner. Im Anschluss fügst du die heruntergeladenen Ordner ein (STRG+V oder Rechtsklick -> Einfüge Symbol).
+**Lösche alle enthaltenen Dateien und Ordner.** Im Anschluss fügst du die heruntergeladenen Ordner ein (STRG+V oder Rechtsklick -> Einfüge Symbol).  
 
-![Image](/rsc/01_img/03_RemoteSetup/RemoteReplace.png)
+Warte nun, bis der Vorgang abgeschlossen wurde. Anschließend trennst du das USB-Kabel von der Fernsteuerung und startest diese neu. Durch den Neustart werden die geänderten Konfigurationen eingelesen.  
 
-Warte nun, bis der Vorgang abgeschlossen wurde. Anschließend trennst du das USB-Kabel von der Fernsteuerung und startest diese neu. Durch den Neustart werden die geänderten Konfigurationen eingelesen.
+Falls es zu einem Speicherfehler auf der Fernsteuerung kommt, bestätige durch das mehrmalige Drücken des Drehrads, dass eine Backup-Konfiguration geladen werden soll. Anschließend verbindest du die Fernsteuerung wieder mit dem PC und wählst USB-Storage aus.  
+Wähle das Laufwerk der Fernbedienung aus und navigiere zu dem Ordner `Models`. In diesem löschst du die Datei mit der Endung `.yaml` und fügst die Datei `model00.yaml` aus dem heruntergeladenen Ordner ein.
 
 Glückwunsch, du hast die benötigte Konfiguration auf die Fernbedienung übertragen. Im weiteren Verlauf wirst du nun einige Zusatzeinstellungen vornehmen.
 
@@ -85,8 +87,6 @@ Im Anschluss bewegst du die Sticks mehrmals in alle Richtungen bis zum Anschlag,
 
 Damit sich die Fernbedienung mit der Drohne verbinden kann, müssen wir das Übertragungsmodul konfigurieren.
 
-Solltest du an irgendeinem Punkt nicht weiterkommen liegt es möglicherweise an nicht installierten Treibern. In diesem Fall gehst du wie [hier](/docs/01_Materials.md#installation-zadig-usb-treiber) beschrieben vor und installierst die Treiber per *Zadig*.
-
 Zuerst starten wir die Fernbedienung mit einem langen Druck auf den Power Button bis das *EdgeTX*-Logo erscheint. Verbinde anschließend die Fernbedienung per USB-Kabel mit dem PC. Nimm dazu den oberen Anschluss an der Fernbedienung.
 
 Es sollte dann folgende Anzeige auf der Fernbedienung erscheinen. Wähle mit dem Drehrad durch Drehen *USB-Serial (VCP)* (1) aus und bestätige durch Drücken des Drehrads.
@@ -101,6 +101,9 @@ Das Fenster, das sich öffnet, sieht etwa so wie unten aus. Wähle die Werte so 
 Anschließend sollten die Werte unten im roten Kasten automatisch ausgewählt werden. Falls nicht, vervollständige sie bitte entsprechend. Die *Binding Phrase* (5) kannst du **frei wählen**. Du musst lediglich darauf achten, dass, falls mehrere Drohnen gleichzeitig gebaut werden, nicht mehrmals die gleiche Binding Phrase verwendet wird. Sprich dich also mit anderen Drohnenpiloten ab, sonst kann es zu Verbindungsfehlern kommen und niemand kann fliegen!
 
 Zuletzt musst du nur noch im Dropdown-Menü (6) *COM5* auswählen. Möglicherweise ist die Zahl hinter *COM* nicht 5, sondern eine andere Zahl. Das macht nichts. Im Dropdown-Menü sollte es nur eine Auswahlmöglichkeit geben, die nimmst du einfach. Gibt es mehr als eine Auswahlmöglichkeit, ist das ein Zeichen dafür, dass noch irgendein anderes Gerät am PC angesteckt ist, das gerade nicht benötigt wird. Entferne es und öffne das Dropdown-Menü neu, dann sollte nur noch eine Möglichkeit übrigbleiben.
+
+Solltest du an diesem Punkt nicht weiterkommen liegt es möglicherweise an nicht installierten Treibern. In diesem Fall gehst du wie [hier](/docs/01_Materials.md#installation-zadig-usb-treiber) beschrieben vor und installierst die Treiber per *Zadig*.  
+Falls dies nicht funktioniert musst du den STM32-Treiber installieren oder eine bestehende Installation reparieren. Folge dazu [dieser](/docs/01_Materials.md#installation-stm32-virtual-com-port-treiber) Anleitung.
 
 Anschließend kannst du die Konfiguration auf die Fernbedienung übertragen, indem du *Auf Gerät installieren* (7) drückst.
 
